@@ -6,7 +6,7 @@ DAMG 7370 Designing Advanced Data Architectures for Business Intelligence
 - [Course Information](#course-information)
 - [Description](#description)
 - [Installation](#installations)
-- [Visualizations](#Visualizations)
+- [Visualizations](#visualizations)
 
 ## Course Information
 
@@ -28,7 +28,7 @@ Focuses on designing advanced data architectures supporting structured, unstruct
 - VMWare
 
 ## Visualizations
-(NYC Food Inspection)[https://public.tableau.com/views/NYC_Part4_with_extract/InspectionStatistics?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link]
+[NYC Food Inspection](https://public.tableau.com/views/NYC_Part4_with_extract/InspectionStatistics?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 
