@@ -20,15 +20,17 @@ Focuses on designing advanced data architectures supporting structured, unstruct
 
 ## Installations
 
-- MS Azure Data Studio
 - Alteryx
 - MS PowerBI
 - Tableau
 - MS SQL Server
-- VMWare
+- Talend
+- ER Studio
 
 ## Visualizations
-[NYC Food Inspection](https://public.tableau.com/views/NYC_Part4_with_extract/InspectionStatistics?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+- [NYC Food Inspection](https://public.tableau.com/views/NYCFoodInspection_17064860754710/InspectionStatistics?:language=en-US&:display_count=n&:origin=viz_share_link)
+- [Chicago Food Inspection](https://public.tableau.com/views/ChicagoFoodInspection_17064859738260/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+- [Dallas Food Inspection](https://public.tableau.com/views/DallasFoodInspection_17064863168050/MainDashforDallasFI?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
 
 
