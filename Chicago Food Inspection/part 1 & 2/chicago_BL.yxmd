@@ -1,0 +1,929 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Business_Licenses.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ACCOUNT NUMBER" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="SITE NUMBER" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LEGAL NAME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="DOING BUSINESS AS NAME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ADDRESS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CITY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="STATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="ZIP CODE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="WARD" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="PRECINCT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="WARD PRECINCT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="POLICE DISTRICT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE CODE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE DESCRIPTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE NUMBER" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION CREATED DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="PAYMENT DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CONDITIONAL APPROVAL" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE TERM START DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="DATE ISSUED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE STATUS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="SSA" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="LOCATION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="198" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_28476_3dbb9572f15d354dbad2a847cfe96818_\Engine_28476_05fb8d8b8b9e2d43bade385066b04570~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="210" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ID" selected="True" />
+            <Field field="LICENSE ID" selected="True" />
+            <Field field="ACCOUNT NUMBER" selected="True" />
+            <Field field="SITE NUMBER" selected="True" />
+            <Field field="LEGAL NAME" selected="True" />
+            <Field field="DOING BUSINESS AS NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="WARD" selected="True" />
+            <Field field="PRECINCT" selected="True" />
+            <Field field="WARD PRECINCT" selected="True" />
+            <Field field="POLICE DISTRICT" selected="True" />
+            <Field field="LICENSE CODE" selected="True" />
+            <Field field="LICENSE DESCRIPTION" selected="True" />
+            <Field field="BUSINESS ACTIVITY ID" selected="True" />
+            <Field field="BUSINESS ACTIVITY" selected="True" />
+            <Field field="LICENSE NUMBER" selected="True" />
+            <Field field="APPLICATION TYPE" selected="True" />
+            <Field field="APPLICATION CREATED DATE" selected="True" />
+            <Field field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <Field field="PAYMENT DATE" selected="True" />
+            <Field field="CONDITIONAL APPROVAL" selected="True" />
+            <Field field="LICENSE TERM START DATE" selected="True" />
+            <Field field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <Field field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <Field field="DATE ISSUED" selected="True" />
+            <Field field="LICENSE STATUS" selected="True" />
+            <Field field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <Field field="SSA" selected="True" />
+            <Field field="LATITUDE" selected="True" />
+            <Field field="LONGITUDE" selected="True" />
+            <Field field="LOCATION" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="16" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE ID" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Int32" />
+            <Field name="SITE NUMBER" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_WString" />
+            <Field name="CITY" size="30" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="STATE" size="2" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="WARD" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Byte" />
+            <Field name="PRECINCT" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="POLICE DISTRICT" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Byte" />
+            <Field name="LICENSE CODE" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="APPLICATION CREATED DATE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="PAYMENT DATE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE TERM START DATE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE TERM EXPIRATION DATE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="DATE ISSUED" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE STATUS" size="3" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" size="10" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="V_String" />
+            <Field name="SSA" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Byte" />
+            <Field name="LATITUDE" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Double" />
+            <Field name="LONGITUDE" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="Double" />
+            <Field name="LOCATION" size="40" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A5\Chicago\Business_Licenses.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="702" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>PAYMENT DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New PAYMENT DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert PAYMENT DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="942" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="True" />
+          <OutputJoinOnly value="True" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_LICENSE ID" selected="True" />
+                <SelectField field="Input_#1_ID" selected="True" />
+                <SelectField field="Input_#1_ACCOUNT NUMBER" selected="True" />
+                <SelectField field="Input_#1_PRECINCT" selected="True" />
+                <SelectField field="Input_#1_SITE NUMBER" selected="True" />
+                <SelectField field="Input_#1_LEGAL NAME" selected="True" />
+                <SelectField field="Input_#1_DOING BUSINESS AS NAME" selected="True" />
+                <SelectField field="Input_#1_ADDRESS" selected="True" />
+                <SelectField field="Input_#1_CITY" selected="True" />
+                <SelectField field="Input_#1_STATE" selected="True" />
+                <SelectField field="Input_#1_ZIP CODE" selected="True" />
+                <SelectField field="Input_#1_WARD" selected="True" />
+                <SelectField field="Input_#1_WARD PRECINCT" selected="True" />
+                <SelectField field="Input_#1_POLICE DISTRICT" selected="True" />
+                <SelectField field="Input_#1_LICENSE CODE" selected="True" />
+                <SelectField field="Input_#1_LICENSE DESCRIPTION" selected="True" />
+                <SelectField field="Input_#1_BUSINESS ACTIVITY ID" selected="True" />
+                <SelectField field="Input_#1_BUSINESS ACTIVITY" selected="True" />
+                <SelectField field="Input_#1_LICENSE NUMBER" selected="True" />
+                <SelectField field="Input_#1_APPLICATION TYPE" selected="True" />
+                <SelectField field="Input_#1_APPLICATION CREATED DATE" selected="True" />
+                <SelectField field="Input_#1_APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+                <SelectField field="Input_#1_PAYMENT DATE" selected="True" />
+                <SelectField field="Input_#1_CONDITIONAL APPROVAL" selected="True" />
+                <SelectField field="Input_#1_LICENSE TERM START DATE" selected="True" />
+                <SelectField field="Input_#1_LICENSE TERM EXPIRATION DATE" selected="True" />
+                <SelectField field="Input_#1_LICENSE APPROVED FOR ISSUANCE" selected="True" />
+                <SelectField field="Input_#1_DATE ISSUED" selected="True" />
+                <SelectField field="Input_#1_LICENSE STATUS" selected="True" />
+                <SelectField field="Input_#1_LICENSE STATUS CHANGE DATE" selected="True" />
+                <SelectField field="Input_#1_SSA" selected="True" />
+                <SelectField field="Input_#1_LATITUDE" selected="True" />
+                <SelectField field="Input_#1_LONGITUDE" selected="True" />
+                <SelectField field="Input_#1_LOCATION" selected="True" />
+                <SelectField field="Input_#1_New Application Requirement" selected="False" type="Date" size="10" />
+                <SelectField field="Input_#2_ID" selected="False" rename="Input_#2_ID" />
+                <SelectField field="Input_#2_LICENSE ID" selected="False" rename="Input_#2_LICENSE ID" />
+                <SelectField field="Input_#2_ACCOUNT NUMBER" selected="False" rename="Input_#2_ACCOUNT NUMBER" />
+                <SelectField field="Input_#2_SITE NUMBER" selected="False" rename="Input_#2_SITE NUMBER" />
+                <SelectField field="Input_#2_LEGAL NAME" selected="False" rename="Input_#2_LEGAL NAME" />
+                <SelectField field="Input_#2_DOING BUSINESS AS NAME" selected="False" rename="Input_#2_DOING BUSINESS AS NAME" />
+                <SelectField field="Input_#2_ADDRESS" selected="False" rename="Input_#2_ADDRESS" />
+                <SelectField field="Input_#2_CITY" selected="False" rename="Input_#2_CITY" />
+                <SelectField field="Input_#2_STATE" selected="False" rename="Input_#2_STATE" />
+                <SelectField field="Input_#2_ZIP CODE" selected="False" rename="Input_#2_ZIP CODE" />
+                <SelectField field="Input_#2_WARD" selected="False" rename="Input_#2_WARD" />
+                <SelectField field="Input_#2_PRECINCT" selected="False" rename="Input_#2_PRECINCT" />
+                <SelectField field="Input_#2_WARD PRECINCT" selected="False" rename="Input_#2_WARD PRECINCT" />
+                <SelectField field="Input_#2_POLICE DISTRICT" selected="False" rename="Input_#2_POLICE DISTRICT" />
+                <SelectField field="Input_#2_LICENSE CODE" selected="False" rename="Input_#2_LICENSE CODE" />
+                <SelectField field="Input_#2_LICENSE DESCRIPTION" selected="False" rename="Input_#2_LICENSE DESCRIPTION" />
+                <SelectField field="Input_#2_BUSINESS ACTIVITY ID" selected="False" rename="Input_#2_BUSINESS ACTIVITY ID" />
+                <SelectField field="Input_#2_BUSINESS ACTIVITY" selected="False" rename="Input_#2_BUSINESS ACTIVITY" />
+                <SelectField field="Input_#2_LICENSE NUMBER" selected="False" rename="Input_#2_LICENSE NUMBER" />
+                <SelectField field="Input_#2_APPLICATION TYPE" selected="False" rename="Input_#2_APPLICATION TYPE" />
+                <SelectField field="Input_#2_APPLICATION CREATED DATE" selected="False" rename="Input_#2_APPLICATION CREATED DATE" />
+                <SelectField field="Input_#2_APPLICATION REQUIREMENTS COMPLETE" selected="False" rename="Input_#2_APPLICATION REQUIREMENTS COMPLETE" />
+                <SelectField field="Input_#2_PAYMENT DATE" selected="False" rename="Input_#2_PAYMENT DATE" />
+                <SelectField field="Input_#2_CONDITIONAL APPROVAL" selected="False" rename="Input_#2_CONDITIONAL APPROVAL" />
+                <SelectField field="Input_#2_LICENSE TERM START DATE" selected="False" rename="Input_#2_LICENSE TERM START DATE" />
+                <SelectField field="Input_#2_LICENSE TERM EXPIRATION DATE" selected="False" rename="Input_#2_LICENSE TERM EXPIRATION DATE" />
+                <SelectField field="Input_#2_LICENSE APPROVED FOR ISSUANCE" selected="False" rename="Input_#2_LICENSE APPROVED FOR ISSUANCE" />
+                <SelectField field="Input_#2_DATE ISSUED" selected="False" rename="Input_#2_DATE ISSUED" />
+                <SelectField field="Input_#2_LICENSE STATUS" selected="False" rename="Input_#2_LICENSE STATUS" />
+                <SelectField field="Input_#2_LICENSE STATUS CHANGE DATE" selected="False" rename="Input_#2_LICENSE STATUS CHANGE DATE" />
+                <SelectField field="Input_#2_SSA" selected="False" rename="Input_#2_SSA" />
+                <SelectField field="Input_#2_LATITUDE" selected="False" rename="Input_#2_LATITUDE" />
+                <SelectField field="Input_#2_LONGITUDE" selected="False" rename="Input_#2_LONGITUDE" />
+                <SelectField field="Input_#2_LOCATION" selected="False" rename="Input_#2_LOCATION" />
+                <SelectField field="Input_#2_New Application date" selected="False" type="Date" size="10" />
+                <SelectField field="Input_#3_ID" selected="False" rename="Input_#3_ID" />
+                <SelectField field="Input_#3_LICENSE ID" selected="False" rename="Input_#3_LICENSE ID" />
+                <SelectField field="Input_#3_ACCOUNT NUMBER" selected="False" rename="Input_#3_ACCOUNT NUMBER" />
+                <SelectField field="Input_#3_SITE NUMBER" selected="False" rename="Input_#3_SITE NUMBER" />
+                <SelectField field="Input_#3_LEGAL NAME" selected="False" rename="Input_#3_LEGAL NAME" />
+                <SelectField field="Input_#3_DOING BUSINESS AS NAME" selected="False" rename="Input_#3_DOING BUSINESS AS NAME" />
+                <SelectField field="Input_#3_ADDRESS" selected="False" rename="Input_#3_ADDRESS" />
+                <SelectField field="Input_#3_CITY" selected="False" rename="Input_#3_CITY" />
+                <SelectField field="Input_#3_STATE" selected="False" rename="Input_#3_STATE" />
+                <SelectField field="Input_#3_ZIP CODE" selected="False" rename="Input_#3_ZIP CODE" />
+                <SelectField field="Input_#3_WARD" selected="False" rename="Input_#3_WARD" />
+                <SelectField field="Input_#3_PRECINCT" selected="False" rename="Input_#3_PRECINCT" />
+                <SelectField field="Input_#3_WARD PRECINCT" selected="False" rename="Input_#3_WARD PRECINCT" />
+                <SelectField field="Input_#3_POLICE DISTRICT" selected="False" rename="Input_#3_POLICE DISTRICT" />
+                <SelectField field="Input_#3_LICENSE CODE" selected="False" rename="Input_#3_LICENSE CODE" />
+                <SelectField field="Input_#3_LICENSE DESCRIPTION" selected="False" rename="Input_#3_LICENSE DESCRIPTION" />
+                <SelectField field="Input_#3_BUSINESS ACTIVITY ID" selected="False" rename="Input_#3_BUSINESS ACTIVITY ID" />
+                <SelectField field="Input_#3_BUSINESS ACTIVITY" selected="False" rename="Input_#3_BUSINESS ACTIVITY" />
+                <SelectField field="Input_#3_LICENSE NUMBER" selected="False" rename="Input_#3_LICENSE NUMBER" />
+                <SelectField field="Input_#3_APPLICATION TYPE" selected="False" rename="Input_#3_APPLICATION TYPE" />
+                <SelectField field="Input_#3_APPLICATION CREATED DATE" selected="False" rename="Input_#3_APPLICATION CREATED DATE" />
+                <SelectField field="Input_#3_APPLICATION REQUIREMENTS COMPLETE" selected="False" rename="Input_#3_APPLICATION REQUIREMENTS COMPLETE" />
+                <SelectField field="Input_#3_PAYMENT DATE" selected="False" rename="Input_#3_PAYMENT DATE" />
+                <SelectField field="Input_#3_CONDITIONAL APPROVAL" selected="False" rename="Input_#3_CONDITIONAL APPROVAL" />
+                <SelectField field="Input_#3_LICENSE TERM START DATE" selected="False" rename="Input_#3_LICENSE TERM START DATE" />
+                <SelectField field="Input_#3_LICENSE TERM EXPIRATION DATE" selected="False" rename="Input_#3_LICENSE TERM EXPIRATION DATE" />
+                <SelectField field="Input_#3_LICENSE APPROVED FOR ISSUANCE" selected="False" rename="Input_#3_LICENSE APPROVED FOR ISSUANCE" />
+                <SelectField field="Input_#3_DATE ISSUED" selected="False" rename="Input_#3_DATE ISSUED" />
+                <SelectField field="Input_#3_LICENSE STATUS" selected="False" rename="Input_#3_LICENSE STATUS" />
+                <SelectField field="Input_#3_LICENSE STATUS CHANGE DATE" selected="False" rename="Input_#3_LICENSE STATUS CHANGE DATE" />
+                <SelectField field="Input_#3_SSA" selected="False" rename="Input_#3_SSA" />
+                <SelectField field="Input_#3_LATITUDE" selected="False" rename="Input_#3_LATITUDE" />
+                <SelectField field="Input_#3_LONGITUDE" selected="False" rename="Input_#3_LONGITUDE" />
+                <SelectField field="Input_#3_LOCATION" selected="False" rename="Input_#3_LOCATION" />
+                <SelectField field="Input_#1_New APPLICATION CREATED DATE" selected="False" />
+                <SelectField field="Input_#2_New APPLICATION REQUIREMENT COMPLETE" selected="False" />
+                <SelectField field="Input_#3_New PAYMENT DATE" selected="False" rename="Input_#3_New PAYMENT DATE" />
+                <SelectField field="Input_#4_ID" selected="False" />
+                <SelectField field="Input_#4_LICENSE ID" selected="False" />
+                <SelectField field="Input_#4_ACCOUNT NUMBER" selected="False" />
+                <SelectField field="Input_#4_SITE NUMBER" selected="False" />
+                <SelectField field="Input_#4_LEGAL NAME" selected="False" />
+                <SelectField field="Input_#4_DOING BUSINESS AS NAME" selected="False" />
+                <SelectField field="Input_#4_ADDRESS" selected="False" />
+                <SelectField field="Input_#4_CITY" selected="False" />
+                <SelectField field="Input_#4_STATE" selected="False" />
+                <SelectField field="Input_#4_ZIP CODE" selected="False" />
+                <SelectField field="Input_#4_WARD" selected="False" />
+                <SelectField field="Input_#4_PRECINCT" selected="False" />
+                <SelectField field="Input_#4_WARD PRECINCT" selected="False" />
+                <SelectField field="Input_#4_POLICE DISTRICT" selected="False" />
+                <SelectField field="Input_#4_LICENSE CODE" selected="False" />
+                <SelectField field="Input_#4_LICENSE DESCRIPTION" selected="False" />
+                <SelectField field="Input_#4_BUSINESS ACTIVITY ID" selected="False" />
+                <SelectField field="Input_#4_BUSINESS ACTIVITY" selected="False" />
+                <SelectField field="Input_#4_LICENSE NUMBER" selected="False" />
+                <SelectField field="Input_#4_APPLICATION TYPE" selected="False" />
+                <SelectField field="Input_#4_APPLICATION CREATED DATE" selected="False" />
+                <SelectField field="Input_#4_APPLICATION REQUIREMENTS COMPLETE" selected="False" />
+                <SelectField field="Input_#4_PAYMENT DATE" selected="False" />
+                <SelectField field="Input_#4_CONDITIONAL APPROVAL" selected="False" />
+                <SelectField field="Input_#4_LICENSE TERM START DATE" selected="False" />
+                <SelectField field="Input_#4_LICENSE TERM EXPIRATION DATE" selected="False" />
+                <SelectField field="Input_#4_LICENSE APPROVED FOR ISSUANCE" selected="False" />
+                <SelectField field="Input_#4_DATE ISSUED" selected="False" />
+                <SelectField field="Input_#4_LICENSE STATUS" selected="False" />
+                <SelectField field="Input_#4_LICENSE STATUS CHANGE DATE" selected="False" />
+                <SelectField field="Input_#4_SSA" selected="False" />
+                <SelectField field="Input_#4_LATITUDE" selected="False" />
+                <SelectField field="Input_#4_LONGITUDE" selected="False" />
+                <SelectField field="Input_#4_LOCATION" selected="False" />
+                <SelectField field="Input_#4_New LICENSE TERM START DATE" selected="False" />
+                <SelectField field="Input_#5_ID" selected="False" />
+                <SelectField field="Input_#5_LICENSE ID" selected="False" />
+                <SelectField field="Input_#5_ACCOUNT NUMBER" selected="False" />
+                <SelectField field="Input_#5_SITE NUMBER" selected="False" />
+                <SelectField field="Input_#5_LEGAL NAME" selected="False" />
+                <SelectField field="Input_#5_DOING BUSINESS AS NAME" selected="False" />
+                <SelectField field="Input_#5_ADDRESS" selected="False" />
+                <SelectField field="Input_#5_CITY" selected="False" />
+                <SelectField field="Input_#5_STATE" selected="False" />
+                <SelectField field="Input_#5_ZIP CODE" selected="False" />
+                <SelectField field="Input_#5_WARD" selected="False" />
+                <SelectField field="Input_#5_PRECINCT" selected="False" />
+                <SelectField field="Input_#5_WARD PRECINCT" selected="False" />
+                <SelectField field="Input_#5_POLICE DISTRICT" selected="False" />
+                <SelectField field="Input_#5_LICENSE CODE" selected="False" />
+                <SelectField field="Input_#5_LICENSE DESCRIPTION" selected="False" />
+                <SelectField field="Input_#5_BUSINESS ACTIVITY ID" selected="False" />
+                <SelectField field="Input_#5_BUSINESS ACTIVITY" selected="False" />
+                <SelectField field="Input_#5_LICENSE NUMBER" selected="False" />
+                <SelectField field="Input_#5_APPLICATION TYPE" selected="False" />
+                <SelectField field="Input_#5_APPLICATION CREATED DATE" selected="False" />
+                <SelectField field="Input_#5_APPLICATION REQUIREMENTS COMPLETE" selected="False" />
+                <SelectField field="Input_#5_PAYMENT DATE" selected="False" />
+                <SelectField field="Input_#5_CONDITIONAL APPROVAL" selected="False" />
+                <SelectField field="Input_#5_LICENSE TERM START DATE" selected="False" />
+                <SelectField field="Input_#5_LICENSE TERM EXPIRATION DATE" selected="False" />
+                <SelectField field="Input_#5_LICENSE APPROVED FOR ISSUANCE" selected="False" />
+                <SelectField field="Input_#5_DATE ISSUED" selected="False" />
+                <SelectField field="Input_#5_LICENSE STATUS" selected="False" />
+                <SelectField field="Input_#5_LICENSE STATUS CHANGE DATE" selected="False" />
+                <SelectField field="Input_#5_SSA" selected="False" />
+                <SelectField field="Input_#5_LATITUDE" selected="False" />
+                <SelectField field="Input_#5_LONGITUDE" selected="False" />
+                <SelectField field="Input_#5_LOCATION" selected="False" />
+                <SelectField field="Input_#5_New LICENSE TERM EXPIRATION DATE" selected="False" />
+                <SelectField field="Input_#6_ID" selected="False" />
+                <SelectField field="Input_#6_LICENSE ID" selected="False" />
+                <SelectField field="Input_#6_ACCOUNT NUMBER" selected="False" />
+                <SelectField field="Input_#6_SITE NUMBER" selected="False" />
+                <SelectField field="Input_#6_LEGAL NAME" selected="False" />
+                <SelectField field="Input_#6_DOING BUSINESS AS NAME" selected="False" />
+                <SelectField field="Input_#6_ADDRESS" selected="False" />
+                <SelectField field="Input_#6_CITY" selected="False" />
+                <SelectField field="Input_#6_STATE" selected="False" />
+                <SelectField field="Input_#6_ZIP CODE" selected="False" />
+                <SelectField field="Input_#6_WARD" selected="False" />
+                <SelectField field="Input_#6_PRECINCT" selected="False" />
+                <SelectField field="Input_#6_WARD PRECINCT" selected="False" />
+                <SelectField field="Input_#6_POLICE DISTRICT" selected="False" />
+                <SelectField field="Input_#6_LICENSE CODE" selected="False" />
+                <SelectField field="Input_#6_LICENSE DESCRIPTION" selected="False" />
+                <SelectField field="Input_#6_BUSINESS ACTIVITY ID" selected="False" />
+                <SelectField field="Input_#6_BUSINESS ACTIVITY" selected="False" />
+                <SelectField field="Input_#6_LICENSE NUMBER" selected="False" />
+                <SelectField field="Input_#6_APPLICATION TYPE" selected="False" />
+                <SelectField field="Input_#6_APPLICATION CREATED DATE" selected="False" />
+                <SelectField field="Input_#6_APPLICATION REQUIREMENTS COMPLETE" selected="False" />
+                <SelectField field="Input_#6_PAYMENT DATE" selected="False" />
+                <SelectField field="Input_#6_CONDITIONAL APPROVAL" selected="False" />
+                <SelectField field="Input_#6_LICENSE TERM START DATE" selected="False" />
+                <SelectField field="Input_#6_LICENSE TERM EXPIRATION DATE" selected="False" />
+                <SelectField field="Input_#6_LICENSE APPROVED FOR ISSUANCE" selected="False" />
+                <SelectField field="Input_#6_DATE ISSUED" selected="False" />
+                <SelectField field="Input_#6_LICENSE STATUS" selected="False" />
+                <SelectField field="Input_#6_LICENSE STATUS CHANGE DATE" selected="False" />
+                <SelectField field="Input_#6_SSA" selected="False" />
+                <SelectField field="Input_#6_LATITUDE" selected="False" />
+                <SelectField field="Input_#6_LONGITUDE" selected="False" />
+                <SelectField field="Input_#6_LOCATION" selected="False" />
+                <SelectField field="Input_#6_New LICENSE APPROVED FOR ISSUANCE" selected="False" />
+                <SelectField field="Input_#7_ID" selected="False" />
+                <SelectField field="Input_#7_LICENSE ID" selected="False" />
+                <SelectField field="Input_#7_ACCOUNT NUMBER" selected="False" />
+                <SelectField field="Input_#7_SITE NUMBER" selected="False" />
+                <SelectField field="Input_#7_LEGAL NAME" selected="False" />
+                <SelectField field="Input_#7_DOING BUSINESS AS NAME" selected="False" />
+                <SelectField field="Input_#7_ADDRESS" selected="False" />
+                <SelectField field="Input_#7_CITY" selected="False" />
+                <SelectField field="Input_#7_STATE" selected="False" />
+                <SelectField field="Input_#7_ZIP CODE" selected="False" />
+                <SelectField field="Input_#7_WARD" selected="False" />
+                <SelectField field="Input_#7_PRECINCT" selected="False" />
+                <SelectField field="Input_#7_WARD PRECINCT" selected="False" />
+                <SelectField field="Input_#7_POLICE DISTRICT" selected="False" />
+                <SelectField field="Input_#7_LICENSE CODE" selected="False" />
+                <SelectField field="Input_#7_LICENSE DESCRIPTION" selected="False" />
+                <SelectField field="Input_#7_BUSINESS ACTIVITY ID" selected="False" />
+                <SelectField field="Input_#7_BUSINESS ACTIVITY" selected="False" />
+                <SelectField field="Input_#7_LICENSE NUMBER" selected="False" />
+                <SelectField field="Input_#7_APPLICATION TYPE" selected="False" />
+                <SelectField field="Input_#7_APPLICATION CREATED DATE" selected="False" />
+                <SelectField field="Input_#7_APPLICATION REQUIREMENTS COMPLETE" selected="False" />
+                <SelectField field="Input_#7_PAYMENT DATE" selected="False" />
+                <SelectField field="Input_#7_CONDITIONAL APPROVAL" selected="False" />
+                <SelectField field="Input_#7_LICENSE TERM START DATE" selected="False" />
+                <SelectField field="Input_#7_LICENSE TERM EXPIRATION DATE" selected="False" />
+                <SelectField field="Input_#7_LICENSE APPROVED FOR ISSUANCE" selected="False" />
+                <SelectField field="Input_#7_DATE ISSUED" selected="False" />
+                <SelectField field="Input_#7_LICENSE STATUS" selected="False" />
+                <SelectField field="Input_#7_LICENSE STATUS CHANGE DATE" selected="False" />
+                <SelectField field="Input_#7_SSA" selected="False" />
+                <SelectField field="Input_#7_LATITUDE" selected="False" />
+                <SelectField field="Input_#7_LONGITUDE" selected="False" />
+                <SelectField field="Input_#7_LOCATION" selected="False" />
+                <SelectField field="Input_#7_New DATE ISSUED" selected="False" />
+                <SelectField field="Input_#8_ID" selected="False" />
+                <SelectField field="Input_#8_LICENSE ID" selected="False" />
+                <SelectField field="Input_#8_ACCOUNT NUMBER" selected="False" />
+                <SelectField field="Input_#8_SITE NUMBER" selected="False" />
+                <SelectField field="Input_#8_LEGAL NAME" selected="False" />
+                <SelectField field="Input_#8_DOING BUSINESS AS NAME" selected="False" />
+                <SelectField field="Input_#8_ADDRESS" selected="False" />
+                <SelectField field="Input_#8_CITY" selected="False" />
+                <SelectField field="Input_#8_STATE" selected="False" />
+                <SelectField field="Input_#8_ZIP CODE" selected="False" />
+                <SelectField field="Input_#8_WARD" selected="False" />
+                <SelectField field="Input_#8_PRECINCT" selected="False" />
+                <SelectField field="Input_#8_WARD PRECINCT" selected="False" />
+                <SelectField field="Input_#8_POLICE DISTRICT" selected="False" />
+                <SelectField field="Input_#8_LICENSE CODE" selected="False" />
+                <SelectField field="Input_#8_LICENSE DESCRIPTION" selected="False" />
+                <SelectField field="Input_#8_BUSINESS ACTIVITY ID" selected="False" />
+                <SelectField field="Input_#8_BUSINESS ACTIVITY" selected="False" />
+                <SelectField field="Input_#8_LICENSE NUMBER" selected="False" />
+                <SelectField field="Input_#8_APPLICATION TYPE" selected="False" />
+                <SelectField field="Input_#8_APPLICATION CREATED DATE" selected="False" />
+                <SelectField field="Input_#8_APPLICATION REQUIREMENTS COMPLETE" selected="False" />
+                <SelectField field="Input_#8_PAYMENT DATE" selected="False" />
+                <SelectField field="Input_#8_CONDITIONAL APPROVAL" selected="False" />
+                <SelectField field="Input_#8_LICENSE TERM START DATE" selected="False" />
+                <SelectField field="Input_#8_LICENSE TERM EXPIRATION DATE" selected="False" />
+                <SelectField field="Input_#8_LICENSE APPROVED FOR ISSUANCE" selected="False" />
+                <SelectField field="Input_#8_DATE ISSUED" selected="False" />
+                <SelectField field="Input_#8_LICENSE STATUS" selected="False" />
+                <SelectField field="Input_#8_LICENSE STATUS CHANGE DATE" selected="False" />
+                <SelectField field="Input_#8_SSA" selected="False" />
+                <SelectField field="Input_#8_LATITUDE" selected="False" />
+                <SelectField field="Input_#8_LONGITUDE" selected="False" />
+                <SelectField field="Input_#8_LOCATION" selected="False" />
+                <SelectField field="Input_#8_New LICENSE STATUS CHANGE DATE" selected="False" />
+                <SelectField field="Input_#2_New APPLICATION REQUIREMENTS COMPLETE" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1074" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_28476_3dbb9572f15d354dbad2a847cfe96818_\Engine_28476_a3534642b4d7994ab5f93e5f3e0025eb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="570" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE TERM START DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New LICENSE TERM START DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE TERM START DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="726" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE TERM EXPIRATION DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New LICENSE TERM EXPIRATION DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE TERM EXPIRATION DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="618" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE APPROVED FOR ISSUANCE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New LICENSE APPROVED FOR ISSUANCE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE APPROVED FOR ISSUANCE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="486" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>DATE ISSUED</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New DATE ISSUED</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert DATE ISSUED From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="486" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>LICENSE STATUS CHANGE DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New LICENSE STATUS CHANGE DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert LICENSE STATUS CHANGE DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="474" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>APPLICATION CREATED DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New APPLICATION CREATED DATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert APPLICATION CREATED DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="594" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>APPLICATION REQUIREMENTS COMPLETE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>New APPLICATION REQUIREMENTS COMPLETE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert APPLICATION REQUIREMENTS COMPLETE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1038" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1241" y="125" width="156" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 22</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1266" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:chicago_food|||stg_chicago_business_license</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="ByName" />
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:chicago_food
+Query=stg_chicago_business_license</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#7">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#8">
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>chicago_BL</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7bd1a87f-07b0-49ab-9ed2-a17b496c56ba" />
+      <Telemetry>
+        <PreviousWorkflowId value="81ef0fc9-3823-4465-bfa5-c586c543d3fc" />
+        <OriginWorkflowId value="81ef0fc9-3823-4465-bfa5-c586c543d3fc" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
