@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="23">aka:dallas_food|||"dallas_FI"."dbo"."stg_dallas"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:dallas_food
+Query="dallas_FI"."dbo"."stg_dalla...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int32" />
+            <Field name="Restaurant Name" size="65" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Inspection Date" size="10" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Inspection Score" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Street Number" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int32" />
+            <Field name="Street Name" size="25" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Street Type" size="4" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Street Unit" size="5" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Street Address" size="36" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Violation Description - 1" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 1" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 1" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 1" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 2" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 2" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 2" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 3" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 3" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 3" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 4" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 4" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 4" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 5" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 5" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 5" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 6" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 6" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 6" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 7" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 7" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 7" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 8" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 8" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 8" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 9" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 9" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 9" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 10" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 10" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 10" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 11" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 11" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 11" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 12" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 12" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 12" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 13" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 13" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 13" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 14" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 14" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 14" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 15" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 15" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 15" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 16" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 16" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 16" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 17" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 17" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 17" size="224" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 18" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 18" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 18" size="224" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 19" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 19" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 19" size="241" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 20" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 20" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation  Memo - 20" size="238" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 21" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 21" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 21" size="209" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 22" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 22" size="246" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 22" size="247" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 23" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 23" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 23" size="102" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 24" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 24" size="234" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 24" size="182" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Points - 25" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+            <Field name="Violation Detail - 25" size="227" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Inspection Month" size="8" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Inspection Year" size="6" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+            <Field name="Lat Long Location" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Location" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Latitude" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="Longitude" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+            <Field name="DI_CreatedDate" size="16777216" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+            <Field name="DI_WorkflowFilename" size="16777216" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_14392_31864cdd6c44044297607d5991e7bcd9_\Engine_14392_489a2868cbe87e478c0cb8ceb2c84e3c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="246" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"RecordID","Restaurant Name","Inspection Type","Inspection Date","Inspection Score","Street Number","Street Name","Street Direction","Street Type","Street Unit","Street Address","Zip Code","Violation Description - 1","Violation Points - 1","Violation Detail - 1","Violation Description - 18","Violation Memo - 17","Violation Detail - 17","Violation Points - 17","Violation Description - 17","Violation Memo - 16","Violation Detail - 16","Violation Points - 16","Violation Description - 16","Violation Memo - 15","Violation Detail - 15","Violation Points - 15","Violation Description - 15","Violation Memo - 14","Violation Detail - 14","Violation Points - 14","Violation Description - 14","Violation Memo - 13","Violation Detail - 13","Violation Points - 13","Violation Description - 13","Violation Memo - 12","Violation Detail - 12","Violation Points - 12","Violation Description - 12","Violation Memo - 11","Violation Detail - 11","Violation Points - 11","Violation Memo - 1","Violation Points - 2","Violation Description - 2","Violation Detail - 2","Violation Memo - 2","Violation Description - 3","Violation Points - 3","Violation Detail - 3","Violation Memo - 3","Violation Description - 4","Violation Points - 4","Violation Detail - 4","Violation Memo - 4","Violation Description - 5","Violation Points - 5","Violation Detail - 5","Violation Memo - 5","Violation Description - 6","Violation Points - 6","Violation Detail - 6","Violation Memo - 6","Violation Description - 7","Violation Points - 7","Violation Detail - 7","Violation Description - 11","Violation Memo - 10","Violation Detail - 10","Violation Points - 10","Violation Description - 10","Violation Memo - 9","Violation Detail - 9","Violation Points - 9","Violation Description - 9","Violation Memo - 7","Violation Points - 8","Violation Description - 8","Violation Detail - 8","Violation Memo - 8","Violation Points - 18","Violation Memo - 18","Violation Detail - 18","Violation Description - 19","Violation Points - 19","Violation Detail - 19","Violation Memo - 19","Violation Description - 20","Violation Points - 20","Violation Detail - 20","Violation  Memo - 20","Violation Description - 21","Violation Points - 21","Violation Detail - 21","Violation Memo - 21","Violation Description - 22","Violation Points - 22","Violation Detail - 22","Violation Memo - 22","Violation Description - 23","Violation Points - 23","Violation Detail - 23","Violation Memo - 23","Violation Points - 24","Violation Description - 24","Violation Detail - 24","Violation Memo - 24","Violation Description - 25","Violation Points - 25","Violation Detail - 25","Violation Memo - 25","Inspection Month","Inspection Year","Lat Long Location","Location","Latitude","Longitude","DI_CreatedDate","DI_WorkflowFilename","ViolationDescription","ViolationPoints","ViolationDetail","ViolationMemo"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="318" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Restaurant Name" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Street Name" selected="True" />
+            <Field field="Street Direction" selected="True" />
+            <Field field="Street Type" selected="True" />
+            <Field field="Street Unit" selected="True" />
+            <Field field="Street Address" selected="True" />
+            <Field field="Zip Code" selected="True" />
+            <Field field="Violation Description - 1" selected="True" />
+            <Field field="Violation Detail - 1" selected="True" />
+            <Field field="Violation Description - 18" selected="True" />
+            <Field field="Violation Memo - 17" selected="True" />
+            <Field field="Violation Detail - 17" selected="True" />
+            <Field field="Violation Description - 17" selected="True" />
+            <Field field="Violation Memo - 16" selected="True" />
+            <Field field="Violation Detail - 16" selected="True" />
+            <Field field="Violation Description - 16" selected="True" />
+            <Field field="Violation Memo - 15" selected="True" />
+            <Field field="Violation Detail - 15" selected="True" />
+            <Field field="Violation Description - 15" selected="True" />
+            <Field field="Violation Memo - 14" selected="True" />
+            <Field field="Violation Detail - 14" selected="True" />
+            <Field field="Violation Description - 14" selected="True" />
+            <Field field="Violation Memo - 13" selected="True" />
+            <Field field="Violation Detail - 13" selected="True" />
+            <Field field="Violation Description - 13" selected="True" />
+            <Field field="Violation Memo - 12" selected="True" />
+            <Field field="Violation Detail - 12" selected="True" />
+            <Field field="Violation Description - 12" selected="True" />
+            <Field field="Violation Memo - 11" selected="True" />
+            <Field field="Violation Detail - 11" selected="True" />
+            <Field field="Violation Memo - 1" selected="True" />
+            <Field field="Violation Description - 2" selected="True" />
+            <Field field="Violation Detail - 2" selected="True" />
+            <Field field="Violation Memo - 2" selected="True" />
+            <Field field="Violation Description - 3" selected="True" />
+            <Field field="Violation Detail - 3" selected="True" />
+            <Field field="Violation Memo - 3" selected="True" />
+            <Field field="Violation Description - 4" selected="True" />
+            <Field field="Violation Detail - 4" selected="True" />
+            <Field field="Violation Memo - 4" selected="True" />
+            <Field field="Violation Description - 5" selected="True" />
+            <Field field="Violation Detail - 5" selected="True" />
+            <Field field="Violation Memo - 5" selected="True" />
+            <Field field="Violation Description - 6" selected="True" />
+            <Field field="Violation Detail - 6" selected="True" />
+            <Field field="Violation Memo - 6" selected="True" />
+            <Field field="Violation Description - 7" selected="True" />
+            <Field field="Violation Detail - 7" selected="True" />
+            <Field field="Violation Description - 11" selected="True" />
+            <Field field="Violation Memo - 10" selected="True" />
+            <Field field="Violation Detail - 10" selected="True" />
+            <Field field="Violation Description - 10" selected="True" />
+            <Field field="Violation Memo - 9" selected="True" />
+            <Field field="Violation Detail - 9" selected="True" />
+            <Field field="Violation Description - 9" selected="True" />
+            <Field field="Violation Memo - 7" selected="True" />
+            <Field field="Violation Description - 8" selected="True" />
+            <Field field="Violation Detail - 8" selected="True" />
+            <Field field="Violation Memo - 8" selected="True" />
+            <Field field="Violation Memo - 18" selected="True" />
+            <Field field="Violation Detail - 18" selected="True" />
+            <Field field="Violation Description - 19" selected="True" />
+            <Field field="Violation Detail - 19" selected="True" />
+            <Field field="Violation Memo - 19" selected="True" />
+            <Field field="Violation Description - 20" selected="True" />
+            <Field field="Violation Detail - 20" selected="True" />
+            <Field field="Violation  Memo - 20" selected="True" />
+            <Field field="Violation Description - 21" selected="True" />
+            <Field field="Violation Detail - 21" selected="True" />
+            <Field field="Violation Memo - 21" selected="True" />
+            <Field field="Violation Description - 22" selected="True" />
+            <Field field="Violation Detail - 22" selected="True" />
+            <Field field="Violation Memo - 22" selected="True" />
+            <Field field="Violation Description - 23" selected="True" />
+            <Field field="Violation Detail - 23" selected="True" />
+            <Field field="Violation Memo - 23" selected="True" />
+            <Field field="Violation Description - 24" selected="True" />
+            <Field field="Violation Detail - 24" selected="True" />
+            <Field field="Violation Memo - 24" selected="True" />
+            <Field field="Violation Description - 25" selected="True" />
+            <Field field="Violation Detail - 25" selected="True" />
+            <Field field="Violation Memo - 25" selected="True" />
+            <Field field="Inspection Month" selected="True" />
+            <Field field="Inspection Year" selected="True" />
+            <Field field="Lat Long Location" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="DI_CreatedDate" selected="True" />
+            <Field field="DI_WorkflowFilename" selected="True" />
+            <Field field="ViolationDescription" selected="True" />
+            <Field field="ViolationDetail" selected="True" />
+            <Field field="ViolationMemo" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int32" />
+            <Field name="Restaurant Name" size="65" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Inspection Type" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Inspection Date" source="Formula: [_CurrentField_]" type="Date" />
+            <Field name="Inspection Score" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Street Number" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int32" />
+            <Field name="Street Name" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Street Direction" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Street Type" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Street Unit" size="5" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Street Address" size="36" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Zip Code" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Violation Description - 1" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 1" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 1" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 1" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 2" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 2" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 2" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 2" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 3" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 3" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 3" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 3" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 4" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 4" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 4" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 4" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 5" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 5" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 5" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 5" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 6" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 6" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 6" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 6" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 7" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 7" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 7" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 7" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 8" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 8" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 8" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 8" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 9" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 9" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 9" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 9" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 10" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 10" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 10" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 10" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 11" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 11" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 11" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 11" size="253" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 12" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 12" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 12" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 12" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 13" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 13" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 13" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 13" size="254" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 14" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 14" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 14" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 14" size="253" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 15" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 15" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 15" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 15" size="253" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 16" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 16" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 16" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 16" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 17" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 17" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 17" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 17" size="224" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 18" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 18" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 18" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 18" size="224" source="Formula: [_CurrentField_]" type="V_WString" />
+            <Field name="Violation Description - 19" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 19" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 19" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 19" size="241" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 20" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 20" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 20" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation  Memo - 20" size="238" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 21" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 21" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 21" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 21" size="209" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 22" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 22" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 22" size="246" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 22" size="247" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 23" size="100" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 23" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 23" size="253" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 23" size="102" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 24" size="59" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 24" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 24" size="234" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 24" size="182" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Description - 25" size="50" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Points - 25" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int16" />
+            <Field name="Violation Detail - 25" size="227" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Violation Memo - 25" size="171" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Inspection Month" size="8" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Inspection Year" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="Lat Long Location" size="73" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Location" size="36" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Latitude" size="29" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="Longitude" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="DI_CreatedDate" source="Formula: [_CurrentField_]" type="DateTime" />
+            <Field name="DI_WorkflowFilename" size="15" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="ViolationDescription" size="1320" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="ViolationPoints" source="Formula: IIF(IsNull([_CurrentField_]),0,[_CurrentField_])" type="Int64" />
+            <Field name="ViolationDetail" size="5695" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="ViolationMemo" size="2849" source="Formula: [_CurrentField_]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="174" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Violation Description - 1]+[Violation Description - 2]+[Violation Description - 3]+[Violation Description - 3]+[Violation Description - 4]+[Violation Description - 5]+[Violation Description - 6]+[Violation Description - 7]+[Violation Description - 8]+[Violation Description - 9]+[Violation Description - 10]+[Violation Description - 11]+[Violation Description - 12]+[Violation Description - 13]+[Violation Description - 14]+[Violation Description - 15]+[Violation Description - 16]+[Violation Description - 17]+[Violation Description - 18]+[Violation Description - 19]+[Violation Description - 20]+[Violation Description - 21]+[Violation Description - 22]+[Violation Description - 23]+[Violation Description - 24]+[Violation Description - 25]" field="ViolationDescription" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Violation Points - 1]+[Violation Points - 2]+[Violation Points - 3]+[Violation Points - 3]+[Violation Points - 4]+[Violation Points - 5]+[Violation Points - 6]+[Violation Points - 7]+[Violation Points - 8]+[Violation Points - 9]+[Violation Points - 10]+[Violation Points - 11]+[Violation Points - 12]+[Violation Points - 13]+[Violation Points - 14]+[Violation Points - 15]+[Violation Points - 16]+[Violation Points - 17]+[Violation Points - 18]+[Violation Points - 19]+[Violation Points - 19]+[Violation Points - 20]+[Violation Points - 21]+[Violation Points - 22]+[Violation Points - 23]+[Violation Points - 24]+[Violation Points - 25]" field="ViolationPoints" size="8" type="Int64" />
+            <FormulaField expression="[Violation Detail - 1]+[Violation Detail - 2]+[Violation Detail - 3]+[Violation Detail - 4]+[Violation Detail - 5]+[Violation Detail - 6]+[Violation Detail - 7]+[Violation Detail - 8]+[Violation Detail - 9]+[Violation Detail - 10]+[Violation Detail - 11]+[Violation Detail - 12]+[Violation Detail - 13]+[Violation Detail - 14]+[Violation Detail - 15]+[Violation Detail - 16]+[Violation Detail - 17]+[Violation Detail - 18]+[Violation Detail - 19]+[Violation Detail - 20]+[Violation Detail - 21]+[Violation Detail - 22]+[Violation Detail - 23]+[Violation Detail - 24]+[Violation Detail - 25]" field="ViolationDetail" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Violation Memo - 1]+[Violation Memo - 2]+[Violation Memo - 3]+[Violation Memo - 4]+[Violation Memo - 5]+[Violation Memo - 6]+[Violation Memo - 7]+[Violation Memo - 8]+[Violation Memo - 9]+[Violation Memo - 10]+[Violation Memo - 11]+[Violation Memo - 12]+[Violation Memo - 13]+[Violation Memo - 14]+[Violation Memo - 15]+[Violation Memo - 16]+[Violation Memo - 17]+[Violation Memo - 18]+[Violation Memo - 19]+[Violation  Memo - 20]+[Violation Memo - 21]+[Violation Memo - 22]+[Violation Memo - 23]+[Violation Memo - 24]+[Violation Memo - 25]" field="ViolationMemo" size="1073741823" type="V_WString" />
+            <FormulaField expression="DateTimeParse([Inspection Date], &quot;%m/%d/%Y&quot;)" field="Inspection Date" size="10" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ViolationDescription = [Violation Description - 1]+[Violation Description - 2]+[...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+        <Position x="402" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldType>Numeric</FieldType>
+          <Fields orderChanged="False">
+            <Field name="RecordID" />
+            <Field name="Inspection Score" />
+            <Field name="Street Number" />
+            <Field name="Violation Points - 1" />
+            <Field name="Violation Points - 17" />
+            <Field name="Violation Points - 16" />
+            <Field name="Violation Points - 15" />
+            <Field name="Violation Points - 14" />
+            <Field name="Violation Points - 13" />
+            <Field name="Violation Points - 12" />
+            <Field name="Violation Points - 11" />
+            <Field name="Violation Points - 2" />
+            <Field name="Violation Points - 3" />
+            <Field name="Violation Points - 4" />
+            <Field name="Violation Points - 5" />
+            <Field name="Violation Points - 6" />
+            <Field name="Violation Points - 7" />
+            <Field name="Violation Points - 10" />
+            <Field name="Violation Points - 9" />
+            <Field name="Violation Points - 8" />
+            <Field name="Violation Points - 18" />
+            <Field name="Violation Points - 19" />
+            <Field name="Violation Points - 20" />
+            <Field name="Violation Points - 21" />
+            <Field name="Violation Points - 22" />
+            <Field name="Violation Points - 23" />
+            <Field name="Violation Points - 24" />
+            <Field name="Violation Points - 25" />
+            <Field name="ViolationPoints" />
+            <Field name="*Unknown" selected="False" />
+          </Fields>
+          <CopyOutput value="False" />
+          <Expression>if IsEmpty([_Currentfield_]) then 0 else [_CurrentField_] endif</Expression>
+          <ChangeFieldType value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if IsEmpty([_Currentfield_]) then 0 else [_CurrentField_] endif</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="606" y="102" width="134" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Date</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="630" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Inspection Date" selected="True" />
+                <SelectField field="Inspection Month" selected="True" type="V_WString" size="99" />
+                <SelectField field="Inspection Year" selected="True" type="V_WString" size="99" />
+                <SelectField field="DI_CreatedDate" selected="True" />
+                <SelectField field="DI_WorkflowFilename" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="822" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Inspection Date" />
+                <Field field="Inspection Month" />
+                <Field field="Inspection Year" />
+                <Field field="DI_CreatedDate" />
+                <Field field="DI_WorkflowFilename" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="906" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>DateSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1014" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="DateSK" selected="True" />
+                <SelectField field="DI_CreatedDate" selected="True" />
+                <SelectField field="DI_WorkflowFilename" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1074" y="174" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:dallas_food|||Dim_Date</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Upsert</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="DateSK" Dest="DateSK" />
+                    <Field Source="Inspection Date" Dest="InspectionDate" />
+                    <Field Source="Inspection Month" Dest="InspectionMonth" />
+                    <Field Source="Inspection Year" Dest="InspectionYear" />
+                    <Field Source="DI_CreatedDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowFilename" Dest="DI_WorkflowFileName" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:dallas_food
+Query=Dim_Date</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="618" y="246" width="130" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Geo</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Street Number" selected="True" />
+                <SelectField field="Street Name" selected="True" />
+                <SelectField field="Street Direction" selected="True" />
+                <SelectField field="Street Type" selected="True" />
+                <SelectField field="Street Unit" selected="True" />
+                <SelectField field="Street Address" selected="True" />
+                <SelectField field="Zip Code" selected="True" />
+                <SelectField field="Lat Long Location" selected="True" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="DI_CreatedDate" selected="True" />
+                <SelectField field="DI_WorkflowFilename" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="834" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Street Number" />
+                <Field field="Street Name" />
+                <Field field="Street Direction" />
+                <Field field="Street Type" />
+                <Field field="Street Unit" />
+                <Field field="Street Address" />
+                <Field field="Zip Code" />
+                <Field field="Lat Long Location" />
+                <Field field="Latitude" />
+                <Field field="Longitude" />
+                <Field field="DI_CreatedDate" />
+                <Field field="DI_WorkflowFilename" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="918" y="426" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>GeoSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1086" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="GeoSK" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1074" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:dallas_food|||Dim_Geo</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Upsert</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="GeoSK" Dest="GeoSK" />
+                    <Field Source="Street Number" Dest="StreetNumber" />
+                    <Field Source="Street Name" Dest="StreetName" />
+                    <Field Source="Street Direction" Dest="StreetDirection" />
+                    <Field Source="Street Type" Dest="StreetType" />
+                    <Field Source="Street Unit" Dest="StreetUnit" />
+                    <Field Source="Street Address" Dest="StreetAddress" />
+                    <Field Source="Zip Code" Dest="ZipCode" />
+                    <Field Source="Lat Long Location" Dest="LatLongLocation" />
+                    <Field Source="Latitude" Dest="Latitude" />
+                    <Field Source="Longitude" Dest="Longitude" />
+                    <Field Source="DI_CreatedDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowFilename" Dest="DI_WorkflowFileName" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:dallas_food
+Query=Dim_Geo</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="617" y="197" width="159" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Violation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="293" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="DI_CreatedDate" selected="True" />
+                <SelectField field="DI_WorkflowFilename" selected="True" />
+                <SelectField field="ViolationDescription" selected="True" size="999999" />
+                <SelectField field="ViolationPoints" selected="True" />
+                <SelectField field="ViolationDetail" selected="True" size="99999" />
+                <SelectField field="ViolationMemo" selected="True" size="99999" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="726" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="DI_CreatedDate" />
+                <Field field="DI_WorkflowFilename" />
+                <Field field="ViolationDescription" />
+                <Field field="ViolationPoints" />
+                <Field field="ViolationDetail" />
+                <Field field="ViolationMemo" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="810" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>ViolationSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="918" y="246" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:dallas_food|||Dim_Violation</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Upsert</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="ViolationSK" Dest="ViolationSK" />
+                    <Field Source="DI_CreatedDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowFilename" Dest="DI_WorkflowFileName" />
+                    <Field Source="ViolationDescription" Dest="ViolationDescription" />
+                    <Field Source="ViolationPoints" Dest="ViolationPoints" />
+                    <Field Source="ViolationDetail" Dest="ViolationDetail" />
+                    <Field Source="ViolationMemo" Dest="ViolationMemo" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:dallas_food
+Query=Dim_Violation</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="966" y="342" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ViolationSK" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="617" y="149" width="166" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dim_Inspection</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="642" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant Name" selected="True" />
+                <SelectField field="Inspection Type" selected="True" />
+                <SelectField field="Inspection Score" selected="True" />
+                <SelectField field="DI_CreatedDate" selected="True" />
+                <SelectField field="DI_WorkflowFilename" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="774" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="Restaurant Name" />
+                <Field field="Inspection Type" />
+                <Field field="Inspection Score" />
+                <Field field="DI_CreatedDate" />
+                <Field field="DI_WorkflowFilename" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="846" y="258" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>InspectionSK</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="954" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="InspectionSK" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1002" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:dallas_food|||Dim_Inspection</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Upsert</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="InspectionSK" Dest="InspectionSK" />
+                    <Field Source="Restaurant Name" Dest="Test" />
+                    <Field Source="Inspection Type" Dest="InspectionType" />
+                    <Field Source="Inspection Score" Dest="InspectionScore" />
+                    <Field Source="DI_CreatedDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_WorkflowFilename" Dest="DI_WorkflowFileName" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:dallas_food
+Query=Dim_Inspection</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Unique" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Unique" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Unique" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Unique" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas Data Integration</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="239ec294-552e-4a39-9c2a-bf97c401e6d2" />
+      <Telemetry>
+        <PreviousWorkflowId value="7c2786fc-d111-4ef7-91a4-f40401326c8d" />
+        <OriginWorkflowId value="584c0f4d-467a-465b-9c97-4850ec19e3fb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

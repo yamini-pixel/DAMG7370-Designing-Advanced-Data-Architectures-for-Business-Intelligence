@@ -1,0 +1,1353 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="91" y="354" width="541" height="327" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 26</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="116" y="535" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:dallas_food|||"dallas_FI"."dbo"."stg_dallas"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:dallas_food
+Query="dallas_FI"."dbo"."stg_dalla...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int32" />
+                <Field name="Restaurant Name" size="65" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Inspection Type" size="9" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Inspection Date" size="10" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Inspection Score" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Street Number" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int32" />
+                <Field name="Street Name" size="25" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Street Direction" size="1" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Street Type" size="4" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Street Unit" size="5" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Street Address" size="36" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Zip Code" size="10" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Violation Description - 1" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 1" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 1" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 1" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 2" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 2" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 2" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 2" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 3" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 3" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 3" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 3" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 4" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 4" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 4" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 4" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 5" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 5" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 5" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 5" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 6" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 6" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 6" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 6" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 7" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 7" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 7" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 7" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 8" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 8" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 8" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 8" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 9" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 9" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 9" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 9" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 10" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 10" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 10" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 10" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 11" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 11" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 11" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 11" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 12" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 12" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 12" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 12" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 13" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 13" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 13" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 13" size="254" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 14" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 14" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 14" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 14" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 15" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 15" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 15" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 15" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 16" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 16" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 16" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 16" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 17" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 17" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 17" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 17" size="224" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 18" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 18" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 18" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 18" size="224" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="Violation Description - 19" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 19" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 19" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 19" size="241" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 20" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 20" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 20" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation  Memo - 20" size="238" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 21" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 21" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 21" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 21" size="209" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 22" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 22" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 22" size="246" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 22" size="247" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 23" size="100" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 23" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 23" size="253" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 23" size="102" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 24" size="59" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 24" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 24" size="234" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 24" size="182" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Description - 25" size="50" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Points - 25" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="Int16" />
+                <Field name="Violation Detail - 25" size="227" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Violation Memo - 25" size="171" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Inspection Month" size="8" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Inspection Year" size="6" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="String" />
+                <Field name="Lat Long Location" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Location" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Latitude" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="Longitude" size="73" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_String" />
+                <Field name="DI_CreatedDate" size="16777216" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+                <Field name="DI_WorkflowFilename" size="16777216" source="File: aka:dallas_food|||&quot;dallas_FI&quot;.&quot;dbo&quot;.&quot;stg_dallas&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="236" y="547" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings>
+            <Position x="199" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields">RecordID=True,Restaurant Name=True,Inspection Type=True,Inspection Date=True,Inspection Score=True,Street Number=True,Street Name=True,Street Direction=True,Street Type=True,Street Unit=True,Street Address=True,Zip Code=True,Violation Description - 1=True,Violation Points - 1=True,Violation Detail - 1=True,Violation Memo - 1=True,Violation Description - 2=True,Violation Points - 2=True,Violation Detail - 2=True,Violation Memo - 2=True,Violation Description - 3=True,Violation Points - 3=True,Violation Detail - 3=True,Violation Memo - 3=True,Violation Description - 4=True,Violation Points - 4=True,Violation Detail - 4=True,Violation Memo - 4=True,Violation Description - 5=True,Violation Points - 5=True,Violation Detail - 5=True,Violation Memo - 5=True,Violation Description - 6=True,Violation Points - 6=True,Violation Detail - 6=True,Violation Memo - 6=True,Violation Description - 7=True,Violation Points - 7=True,Violation Detail - 7=True,Violation Memo - 7=True,Violation Description - 8=True,Violation Points - 8=True,Violation Detail - 8=True,Violation Memo - 8=True,Violation Description - 9=True,Violation Points - 9=True,Violation Detail - 9=True,Violation Memo - 9=True,Violation Description - 10=True,Violation Points - 10=True,Violation Detail - 10=True,Violation Memo - 10=True,Violation Description - 11=True,Violation Points - 11=True,Violation Detail - 11=True,Violation Memo - 11=True,Violation Description - 12=True,Violation Points - 12=True,Violation Detail - 12=True,Violation Memo - 12=True,Violation Description - 13=True,Violation Points - 13=True,Violation Detail - 13=True,Violation Memo - 13=True,Violation Description - 14=True,Violation Points - 14=True,Violation Detail - 14=True,Violation Memo - 14=True,Violation Description - 15=True,Violation Points - 15=True,Violation Detail - 15=True,Violation Memo - 15=True,Violation Description - 16=True,Violation Points - 16=True,Violation Detail - 16=True,Violation Memo - 16=True,Violation Description - 17=True,Violation Points - 17=True,Violation Detail - 17=True,Violation Memo - 17=True,Violation Description - 18=True,Violation Points - 18=True,Violation Detail - 18=True,Violation Memo - 18=True,Violation Description - 19=True,Violation Points - 19=True,Violation Detail - 19=True,Violation Memo - 19=True,Violation Description - 20=True,Violation Points - 20=True,Violation Detail - 20=True,Violation  Memo - 20=True,Violation Description - 21=True,Violation Points - 21=True,Violation Detail - 21=True,Violation Memo - 21=True,Violation Description - 22=True,Violation Points - 22=True,Violation Detail - 22=True,Violation Memo - 22=True,Violation Description - 23=True,Violation Points - 23=True,Violation Detail - 23=True,Violation Memo - 23=True,Violation Description - 24=True,Violation Points - 24=True,Violation Detail - 24=True,Violation Memo - 24=True,Violation Description - 25=True,Violation Points - 25=True,Violation Detail - 25=True,Violation Memo - 25=True,Inspection Month=True,Inspection Year=True,Lat Long Location=True,Location=True,Latitude=True,Longitude=True,DI_CreatedDate=True,DI_WorkflowFilename=True</Value>
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="344" y="403" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_9812_60c950e06a624f8f9d2f8561900d0c39_\Engine_1440_ed42b5fd0951426285348621e24298d7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="380" y="595" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_9812_60c950e06a624f8f9d2f8561900d0c39_\Engine_1440_8846b91637c14f69b0adf4a461507952_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="344" y="463" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_9812_60c950e06a624f8f9d2f8561900d0c39_\Engine_1440_1afe576a3e484b7a95be3a12adb410ee_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="548" y="511" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_9812_60c950e06a624f8f9d2f8561900d0c39_\Engine_1440_80d10f00078848c7a9d2adbddd536286_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="54" width="1055" height="262" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Dallas_stg</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>65001</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Restaurant Name" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Inspection Type" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Inspection Date" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Inspection Score" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Street Number" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Street Name" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Street Direction" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Street Type" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Street Unit" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Street Address" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Zip Code" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 1" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 1" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 1" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 1" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 2" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 2" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 2" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 2" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 3" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 3" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 3" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 3" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 4" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 4" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 4" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 4" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 5" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 5" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 5" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 5" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 6" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 6" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 6" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 6" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 7" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 7" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 7" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 7" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 8" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 8" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 8" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 8" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 9" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 9" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 9" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 9" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 10" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 10" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 10" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 10" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 11" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 11" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 11" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 11" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 12" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 12" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 12" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 12" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 13" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 13" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 13" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 13" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 14" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 14" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 14" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 14" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 15" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 15" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 15" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 15" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 16" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 16" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 16" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 16" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 17" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 17" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 17" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 17" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 18" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 18" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 18" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 18" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 19" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 19" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 19" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 19" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 20" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 20" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 20" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation  Memo - 20" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 21" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 21" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 21" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 21" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 22" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 22" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 22" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 22" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 23" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 23" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 23" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 23" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 24" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 24" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 24" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 24" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Description - 25" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Points - 25" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Detail - 25" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Violation Memo - 25" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Inspection Month" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Inspection Year" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+                <Field name="Lat Long Location" size="254" source="File: D:\DADABI\Assignment 7 Dallas Group\Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present_.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="176" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="Restaurant Name" selected="True" />
+                <Field field="Inspection Type" selected="True" />
+                <Field field="Inspection Date" selected="True" />
+                <Field field="Inspection Score" selected="True" />
+                <Field field="Street Number" selected="True" />
+                <Field field="Street Name" selected="True" />
+                <Field field="Street Direction" selected="True" />
+                <Field field="Street Type" selected="True" />
+                <Field field="Street Unit" selected="True" />
+                <Field field="Street Address" selected="True" />
+                <Field field="Zip Code" selected="True" />
+                <Field field="Violation Description - 1" selected="True" />
+                <Field field="Violation Points - 1" selected="True" />
+                <Field field="Violation Detail - 1" selected="True" />
+                <Field field="Violation Memo - 1" selected="True" />
+                <Field field="Violation Description - 2" selected="True" />
+                <Field field="Violation Points - 2" selected="True" />
+                <Field field="Violation Detail - 2" selected="True" />
+                <Field field="Violation Memo - 2" selected="True" />
+                <Field field="Violation Description - 3" selected="True" />
+                <Field field="Violation Points - 3" selected="True" />
+                <Field field="Violation Detail - 3" selected="True" />
+                <Field field="Violation Memo - 3" selected="True" />
+                <Field field="Violation Description - 4" selected="True" />
+                <Field field="Violation Points - 4" selected="True" />
+                <Field field="Violation Detail - 4" selected="True" />
+                <Field field="Violation Memo - 4" selected="True" />
+                <Field field="Violation Description - 5" selected="True" />
+                <Field field="Violation Points - 5" selected="True" />
+                <Field field="Violation Detail - 5" selected="True" />
+                <Field field="Violation Memo - 5" selected="True" />
+                <Field field="Violation Description - 6" selected="True" />
+                <Field field="Violation Points - 6" selected="True" />
+                <Field field="Violation Detail - 6" selected="True" />
+                <Field field="Violation Memo - 6" selected="True" />
+                <Field field="Violation Description - 7" selected="True" />
+                <Field field="Violation Points - 7" selected="True" />
+                <Field field="Violation Detail - 7" selected="True" />
+                <Field field="Violation Memo - 7" selected="True" />
+                <Field field="Violation Description - 8" selected="True" />
+                <Field field="Violation Points - 8" selected="True" />
+                <Field field="Violation Detail - 8" selected="True" />
+                <Field field="Violation Memo - 8" selected="True" />
+                <Field field="Violation Description - 9" selected="True" />
+                <Field field="Violation Points - 9" selected="True" />
+                <Field field="Violation Detail - 9" selected="True" />
+                <Field field="Violation Memo - 9" selected="True" />
+                <Field field="Violation Description - 10" selected="True" />
+                <Field field="Violation Points - 10" selected="True" />
+                <Field field="Violation Detail - 10" selected="True" />
+                <Field field="Violation Memo - 10" selected="True" />
+                <Field field="Violation Description - 11" selected="True" />
+                <Field field="Violation Points - 11" selected="True" />
+                <Field field="Violation Detail - 11" selected="True" />
+                <Field field="Violation Memo - 11" selected="True" />
+                <Field field="Violation Description - 12" selected="True" />
+                <Field field="Violation Points - 12" selected="True" />
+                <Field field="Violation Detail - 12" selected="True" />
+                <Field field="Violation Memo - 12" selected="True" />
+                <Field field="Violation Description - 13" selected="True" />
+                <Field field="Violation Points - 13" selected="True" />
+                <Field field="Violation Detail - 13" selected="True" />
+                <Field field="Violation Memo - 13" selected="True" />
+                <Field field="Violation Description - 14" selected="True" />
+                <Field field="Violation Points - 14" selected="True" />
+                <Field field="Violation Detail - 14" selected="True" />
+                <Field field="Violation Memo - 14" selected="True" />
+                <Field field="Violation Description - 15" selected="True" />
+                <Field field="Violation Points - 15" selected="True" />
+                <Field field="Violation Detail - 15" selected="True" />
+                <Field field="Violation Memo - 15" selected="True" />
+                <Field field="Violation Description - 16" selected="True" />
+                <Field field="Violation Points - 16" selected="True" />
+                <Field field="Violation Detail - 16" selected="True" />
+                <Field field="Violation Memo - 16" selected="True" />
+                <Field field="Violation Description - 17" selected="True" />
+                <Field field="Violation Points - 17" selected="True" />
+                <Field field="Violation Detail - 17" selected="True" />
+                <Field field="Violation Memo - 17" selected="True" />
+                <Field field="Violation Description - 18" selected="True" />
+                <Field field="Violation Points - 18" selected="True" />
+                <Field field="Violation Detail - 18" selected="True" />
+                <Field field="Violation Memo - 18" selected="True" />
+                <Field field="Violation Description - 19" selected="True" />
+                <Field field="Violation Points - 19" selected="True" />
+                <Field field="Violation Detail - 19" selected="True" />
+                <Field field="Violation Memo - 19" selected="True" />
+                <Field field="Violation Description - 20" selected="True" />
+                <Field field="Violation Points - 20" selected="True" />
+                <Field field="Violation Detail - 20" selected="True" />
+                <Field field="Violation  Memo - 20" selected="True" />
+                <Field field="Violation Description - 21" selected="True" />
+                <Field field="Violation Points - 21" selected="True" />
+                <Field field="Violation Detail - 21" selected="True" />
+                <Field field="Violation Memo - 21" selected="True" />
+                <Field field="Violation Description - 22" selected="True" />
+                <Field field="Violation Points - 22" selected="True" />
+                <Field field="Violation Detail - 22" selected="True" />
+                <Field field="Violation Memo - 22" selected="True" />
+                <Field field="Violation Description - 23" selected="True" />
+                <Field field="Violation Points - 23" selected="True" />
+                <Field field="Violation Detail - 23" selected="True" />
+                <Field field="Violation Memo - 23" selected="True" />
+                <Field field="Violation Description - 24" selected="True" />
+                <Field field="Violation Points - 24" selected="True" />
+                <Field field="Violation Detail - 24" selected="True" />
+                <Field field="Violation Memo - 24" selected="True" />
+                <Field field="Violation Description - 25" selected="True" />
+                <Field field="Violation Points - 25" selected="True" />
+                <Field field="Violation Detail - 25" selected="True" />
+                <Field field="Violation Memo - 25" selected="True" />
+                <Field field="Inspection Month" selected="True" />
+                <Field field="Inspection Year" selected="True" />
+                <Field field="Lat Long Location" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Restaurant Name" size="65" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Inspection Type" size="9" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Inspection Date" size="10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Inspection Score" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Int16" />
+                <Field name="Street Number" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Int32" />
+                <Field name="Street Name" size="25" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Street Direction" size="1" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Street Type" size="4" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Street Unit" size="5" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Street Address" size="36" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Zip Code" size="10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Violation Description - 1" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 1" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 1" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 1" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 2" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 2" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 2" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 2" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 3" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 3" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 3" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 3" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 4" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 4" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 4" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 4" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 5" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 5" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 5" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 5" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 6" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 6" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 6" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 6" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 7" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 7" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 7" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 7" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 8" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 8" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 8" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 8" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 9" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 9" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 9" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 9" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 10" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 10" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 10" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 10" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 11" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 11" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 11" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 11" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 12" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 12" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 12" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 12" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 13" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 13" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 13" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 13" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 14" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 14" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 14" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 14" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 15" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 15" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 15" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 15" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 16" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 16" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 16" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 16" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 17" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 17" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 17" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 17" size="224" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 18" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 18" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 18" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 18" size="224" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_WString" />
+                <Field name="Violation Description - 19" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 19" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 19" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 19" size="241" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 20" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 20" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 20" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation  Memo - 20" size="238" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 21" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 21" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 21" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 21" size="209" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 22" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 22" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 22" size="246" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 22" size="247" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 23" size="100" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 23" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 23" size="253" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 23" size="102" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 24" size="59" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 24" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 24" size="234" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 24" size="182" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Description - 25" size="50" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Points - 25" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="Byte" />
+                <Field name="Violation Detail - 25" size="227" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Violation Memo - 25" size="171" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+                <Field name="Inspection Month" size="8" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Inspection Year" size="6" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="String" />
+                <Field name="Lat Long Location" size="73" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160)) (BatchMacro)" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="272" y="138" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Restaurant Name" selected="True" />
+                <SelectField field="Inspection Type" selected="True" />
+                <SelectField field="Inspection Date" selected="True" />
+                <SelectField field="Inspection Score" selected="True" />
+                <SelectField field="Street Number" selected="True" />
+                <SelectField field="Street Name" selected="True" />
+                <SelectField field="Street Direction" selected="True" />
+                <SelectField field="Street Type" selected="True" />
+                <SelectField field="Street Unit" selected="True" />
+                <SelectField field="Street Address" selected="True" />
+                <SelectField field="Zip Code" selected="True" />
+                <SelectField field="Violation Description - 1" selected="True" />
+                <SelectField field="Violation Points - 1" selected="True" />
+                <SelectField field="Violation Detail - 1" selected="True" />
+                <SelectField field="Violation Memo - 1" selected="True" />
+                <SelectField field="Violation Description - 2" selected="True" />
+                <SelectField field="Violation Points - 2" selected="True" />
+                <SelectField field="Violation Detail - 2" selected="True" />
+                <SelectField field="Violation Memo - 2" selected="True" />
+                <SelectField field="Violation Description - 3" selected="True" />
+                <SelectField field="Violation Points - 3" selected="True" />
+                <SelectField field="Violation Detail - 3" selected="True" />
+                <SelectField field="Violation Memo - 3" selected="True" />
+                <SelectField field="Violation Description - 4" selected="True" />
+                <SelectField field="Violation Points - 4" selected="True" />
+                <SelectField field="Violation Detail - 4" selected="True" />
+                <SelectField field="Violation Memo - 4" selected="True" />
+                <SelectField field="Violation Description - 5" selected="True" />
+                <SelectField field="Violation Points - 5" selected="True" />
+                <SelectField field="Violation Detail - 5" selected="True" />
+                <SelectField field="Violation Memo - 5" selected="True" />
+                <SelectField field="Violation Description - 6" selected="True" />
+                <SelectField field="Violation Points - 6" selected="True" />
+                <SelectField field="Violation Detail - 6" selected="True" />
+                <SelectField field="Violation Memo - 6" selected="True" />
+                <SelectField field="Violation Description - 7" selected="True" />
+                <SelectField field="Violation Points - 7" selected="True" />
+                <SelectField field="Violation Detail - 7" selected="True" />
+                <SelectField field="Violation Memo - 7" selected="True" />
+                <SelectField field="Violation Description - 8" selected="True" />
+                <SelectField field="Violation Points - 8" selected="True" />
+                <SelectField field="Violation Detail - 8" selected="True" />
+                <SelectField field="Violation Memo - 8" selected="True" />
+                <SelectField field="Violation Description - 9" selected="True" />
+                <SelectField field="Violation Points - 9" selected="True" />
+                <SelectField field="Violation Detail - 9" selected="True" />
+                <SelectField field="Violation Memo - 9" selected="True" />
+                <SelectField field="Violation Description - 10" selected="True" />
+                <SelectField field="Violation Points - 10" selected="True" />
+                <SelectField field="Violation Detail - 10" selected="True" />
+                <SelectField field="Violation Memo - 10" selected="True" />
+                <SelectField field="Violation Description - 11" selected="True" />
+                <SelectField field="Violation Points - 11" selected="True" />
+                <SelectField field="Violation Detail - 11" selected="True" />
+                <SelectField field="Violation Memo - 11" selected="True" />
+                <SelectField field="Violation Description - 12" selected="True" />
+                <SelectField field="Violation Points - 12" selected="True" />
+                <SelectField field="Violation Detail - 12" selected="True" />
+                <SelectField field="Violation Memo - 12" selected="True" />
+                <SelectField field="Violation Description - 13" selected="True" />
+                <SelectField field="Violation Points - 13" selected="True" />
+                <SelectField field="Violation Detail - 13" selected="True" />
+                <SelectField field="Violation Memo - 13" selected="True" />
+                <SelectField field="Violation Description - 14" selected="True" />
+                <SelectField field="Violation Points - 14" selected="True" />
+                <SelectField field="Violation Detail - 14" selected="True" />
+                <SelectField field="Violation Memo - 14" selected="True" />
+                <SelectField field="Violation Description - 15" selected="True" />
+                <SelectField field="Violation Points - 15" selected="True" />
+                <SelectField field="Violation Detail - 15" selected="True" />
+                <SelectField field="Violation Memo - 15" selected="True" />
+                <SelectField field="Violation Description - 16" selected="True" />
+                <SelectField field="Violation Points - 16" selected="True" />
+                <SelectField field="Violation Detail - 16" selected="True" />
+                <SelectField field="Violation Memo - 16" selected="True" />
+                <SelectField field="Violation Description - 17" selected="True" />
+                <SelectField field="Violation Points - 17" selected="True" />
+                <SelectField field="Violation Detail - 17" selected="True" />
+                <SelectField field="Violation Memo - 17" selected="True" />
+                <SelectField field="Violation Description - 18" selected="True" />
+                <SelectField field="Violation Points - 18" selected="True" />
+                <SelectField field="Violation Detail - 18" selected="True" />
+                <SelectField field="Violation Memo - 18" selected="True" />
+                <SelectField field="Violation Description - 19" selected="True" />
+                <SelectField field="Violation Points - 19" selected="True" />
+                <SelectField field="Violation Detail - 19" selected="True" />
+                <SelectField field="Violation Memo - 19" selected="True" />
+                <SelectField field="Violation Description - 20" selected="True" />
+                <SelectField field="Violation Points - 20" selected="True" />
+                <SelectField field="Violation Detail - 20" selected="True" />
+                <SelectField field="Violation  Memo - 20" selected="True" />
+                <SelectField field="Violation Description - 21" selected="True" />
+                <SelectField field="Violation Points - 21" selected="True" />
+                <SelectField field="Violation Detail - 21" selected="True" />
+                <SelectField field="Violation Memo - 21" selected="True" />
+                <SelectField field="Violation Description - 22" selected="True" />
+                <SelectField field="Violation Points - 22" selected="True" />
+                <SelectField field="Violation Detail - 22" selected="True" />
+                <SelectField field="Violation Memo - 22" selected="True" />
+                <SelectField field="Violation Description - 23" selected="True" />
+                <SelectField field="Violation Points - 23" selected="True" />
+                <SelectField field="Violation Detail - 23" selected="True" />
+                <SelectField field="Violation Memo - 23" selected="True" />
+                <SelectField field="Violation Description - 24" selected="True" />
+                <SelectField field="Violation Points - 24" selected="True" />
+                <SelectField field="Violation Detail - 24" selected="True" />
+                <SelectField field="Violation Memo - 24" selected="True" />
+                <SelectField field="Violation Description - 25" selected="True" />
+                <SelectField field="Violation Points - 25" selected="True" />
+                <SelectField field="Violation Detail - 25" selected="True" />
+                <SelectField field="Violation Memo - 25" selected="True" />
+                <SelectField field="Inspection Month" selected="True" />
+                <SelectField field="Inspection Year" selected="True" />
+                <SelectField field="Lat Long Location" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="356" y="139" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreatedDate" size="1073741823" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFilename" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_CreatedDate = DateTimeNow()
+DI_WorkflowFilename = [Engine.WorkflowFileName]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="476" y="139" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings>
+            <Position x="115" y="199" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Restaurant Name","Inspection Type","Inspection Date","Inspection Score","Street Number","Street Name","Street Direction","Street Type","Street Unit","Street Address","Zip Code","Violation Description - 1","Violation Points - 1","Violation Detail - 1","Violation Memo - 1","Violation Description - 2","Violation Points - 2","Violation Detail - 2","Violation Memo - 2","Violation Description - 3","Violation Points - 3","Violation Detail - 3","Violation Memo - 3","Violation Description - 4","Violation Points - 4","Violation Detail - 4","Violation Memo - 4","Violation Description - 5","Violation Points - 5","Violation Detail - 5","Violation Memo - 5","Violation Description - 6","Violation Points - 6","Violation Detail - 6","Violation Memo - 6","Violation Description - 7","Violation Points - 7","Violation Detail - 7","Violation Memo - 7","Violation Description - 8","Violation Points - 8","Violation Detail - 8","Violation Memo - 8","Violation Description - 9","Violation Points - 9","Violation Detail - 9","Violation Memo - 9","Violation Description - 10","Violation Points - 10","Violation Detail - 10","Violation Memo - 10","Violation Description - 11","Violation Points - 11","Violation Detail - 11","Violation Memo - 11","Violation Description - 12","Violation Points - 12","Violation Detail - 12","Violation Memo - 12","Violation Description - 13","Violation Points - 13","Violation Detail - 13","Violation Memo - 13","Violation Description - 14","Violation Points - 14","Violation Detail - 14","Violation Memo - 14","Violation Description - 15","Violation Points - 15","Violation Detail - 15","Violation Memo - 15","Violation Description - 16","Violation Points - 16","Violation Detail - 16","Violation Memo - 16","Violation Description - 17","Violation Points - 17","Violation Detail - 17","Violation Memo - 17","Violation Description - 18","Violation Points - 18","Violation Detail - 18","Violation Memo - 18","Violation Description - 19","Violation Points - 19","Violation Detail - 19","Violation Memo - 19","Violation Description - 20","Violation Points - 20","Violation Detail - 20","Violation  Memo - 20","Violation Description - 21","Violation Points - 21","Violation Detail - 21","Violation Memo - 21","Violation Description - 22","Violation Points - 22","Violation Detail - 22","Violation Memo - 22","Violation Description - 23","Violation Points - 23","Violation Detail - 23","Violation Memo - 23","Violation Description - 24","Violation Points - 24","Violation Detail - 24","Violation Memo - 24","Violation Description - 25","Violation Points - 25","Violation Detail - 25","Violation Memo - 25","Inspection Month","Inspection Year","Lat Long Location"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="548" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Lat Long Location</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Location</RootName>
+              <Delimeters value="(" />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="620" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Location2</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>coordinates</RootName>
+              <Delimeters value="," />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="692" y="163" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>coordinates2</Field>
+              <ErrorHandling>Warn</ErrorHandling>
+              <RootName>extra</RootName>
+              <Delimeters value=")" />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="776" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="RecordID" selected="True" />
+                <SelectField field="Restaurant Name" selected="True" />
+                <SelectField field="Inspection Type" selected="True" />
+                <SelectField field="Inspection Date" selected="True" />
+                <SelectField field="Inspection Score" selected="True" />
+                <SelectField field="Street Number" selected="True" />
+                <SelectField field="Street Name" selected="True" />
+                <SelectField field="Street Direction" selected="True" />
+                <SelectField field="Street Type" selected="True" />
+                <SelectField field="Street Unit" selected="True" />
+                <SelectField field="Street Address" selected="True" />
+                <SelectField field="Zip Code" selected="True" />
+                <SelectField field="Violation Description - 1" selected="True" />
+                <SelectField field="Violation Points - 1" selected="True" />
+                <SelectField field="Violation Detail - 1" selected="True" />
+                <SelectField field="Violation Memo - 1" selected="True" />
+                <SelectField field="Violation Description - 2" selected="True" />
+                <SelectField field="Violation Points - 2" selected="True" />
+                <SelectField field="Violation Detail - 2" selected="True" />
+                <SelectField field="Violation Memo - 2" selected="True" />
+                <SelectField field="Violation Description - 3" selected="True" />
+                <SelectField field="Violation Points - 3" selected="True" />
+                <SelectField field="Violation Detail - 3" selected="True" />
+                <SelectField field="Violation Memo - 3" selected="True" />
+                <SelectField field="Violation Description - 4" selected="True" />
+                <SelectField field="Violation Points - 4" selected="True" />
+                <SelectField field="Violation Detail - 4" selected="True" />
+                <SelectField field="Violation Memo - 4" selected="True" />
+                <SelectField field="Violation Description - 5" selected="True" />
+                <SelectField field="Violation Points - 5" selected="True" />
+                <SelectField field="Violation Detail - 5" selected="True" />
+                <SelectField field="Violation Memo - 5" selected="True" />
+                <SelectField field="Violation Description - 6" selected="True" />
+                <SelectField field="Violation Points - 6" selected="True" />
+                <SelectField field="Violation Detail - 6" selected="True" />
+                <SelectField field="Violation Memo - 6" selected="True" />
+                <SelectField field="Violation Description - 7" selected="True" />
+                <SelectField field="Violation Points - 7" selected="True" />
+                <SelectField field="Violation Detail - 7" selected="True" />
+                <SelectField field="Violation Memo - 7" selected="True" />
+                <SelectField field="Violation Description - 8" selected="True" />
+                <SelectField field="Violation Points - 8" selected="True" />
+                <SelectField field="Violation Detail - 8" selected="True" />
+                <SelectField field="Violation Memo - 8" selected="True" />
+                <SelectField field="Violation Description - 9" selected="True" />
+                <SelectField field="Violation Points - 9" selected="True" />
+                <SelectField field="Violation Detail - 9" selected="True" />
+                <SelectField field="Violation Memo - 9" selected="True" />
+                <SelectField field="Violation Description - 10" selected="True" />
+                <SelectField field="Violation Points - 10" selected="True" />
+                <SelectField field="Violation Detail - 10" selected="True" />
+                <SelectField field="Violation Memo - 10" selected="True" />
+                <SelectField field="Violation Description - 11" selected="True" />
+                <SelectField field="Violation Points - 11" selected="True" />
+                <SelectField field="Violation Detail - 11" selected="True" />
+                <SelectField field="Violation Memo - 11" selected="True" />
+                <SelectField field="Violation Description - 12" selected="True" />
+                <SelectField field="Violation Points - 12" selected="True" />
+                <SelectField field="Violation Detail - 12" selected="True" />
+                <SelectField field="Violation Memo - 12" selected="True" />
+                <SelectField field="Violation Description - 13" selected="True" />
+                <SelectField field="Violation Points - 13" selected="True" />
+                <SelectField field="Violation Detail - 13" selected="True" />
+                <SelectField field="Violation Memo - 13" selected="True" />
+                <SelectField field="Violation Description - 14" selected="True" />
+                <SelectField field="Violation Points - 14" selected="True" />
+                <SelectField field="Violation Detail - 14" selected="True" />
+                <SelectField field="Violation Memo - 14" selected="True" />
+                <SelectField field="Violation Description - 15" selected="True" />
+                <SelectField field="Violation Points - 15" selected="True" />
+                <SelectField field="Violation Detail - 15" selected="True" />
+                <SelectField field="Violation Memo - 15" selected="True" />
+                <SelectField field="Violation Description - 16" selected="True" />
+                <SelectField field="Violation Points - 16" selected="True" />
+                <SelectField field="Violation Detail - 16" selected="True" />
+                <SelectField field="Violation Memo - 16" selected="True" />
+                <SelectField field="Violation Description - 17" selected="True" />
+                <SelectField field="Violation Points - 17" selected="True" />
+                <SelectField field="Violation Detail - 17" selected="True" />
+                <SelectField field="Violation Memo - 17" selected="True" />
+                <SelectField field="Violation Description - 18" selected="True" />
+                <SelectField field="Violation Points - 18" selected="True" />
+                <SelectField field="Violation Detail - 18" selected="True" />
+                <SelectField field="Violation Memo - 18" selected="True" />
+                <SelectField field="Violation Description - 19" selected="True" />
+                <SelectField field="Violation Points - 19" selected="True" />
+                <SelectField field="Violation Detail - 19" selected="True" />
+                <SelectField field="Violation Memo - 19" selected="True" />
+                <SelectField field="Violation Description - 20" selected="True" />
+                <SelectField field="Violation Points - 20" selected="True" />
+                <SelectField field="Violation Detail - 20" selected="True" />
+                <SelectField field="Violation  Memo - 20" selected="True" />
+                <SelectField field="Violation Description - 21" selected="True" />
+                <SelectField field="Violation Points - 21" selected="True" />
+                <SelectField field="Violation Detail - 21" selected="True" />
+                <SelectField field="Violation Memo - 21" selected="True" />
+                <SelectField field="Violation Description - 22" selected="True" />
+                <SelectField field="Violation Points - 22" selected="True" />
+                <SelectField field="Violation Detail - 22" selected="True" />
+                <SelectField field="Violation Memo - 22" selected="True" />
+                <SelectField field="Violation Description - 23" selected="True" />
+                <SelectField field="Violation Points - 23" selected="True" />
+                <SelectField field="Violation Detail - 23" selected="True" />
+                <SelectField field="Violation Memo - 23" selected="True" />
+                <SelectField field="Violation Description - 24" selected="True" />
+                <SelectField field="Violation Points - 24" selected="True" />
+                <SelectField field="Violation Detail - 24" selected="True" />
+                <SelectField field="Violation Memo - 24" selected="True" />
+                <SelectField field="Violation Description - 25" selected="True" />
+                <SelectField field="Violation Points - 25" selected="True" />
+                <SelectField field="Violation Detail - 25" selected="True" />
+                <SelectField field="Violation Memo - 25" selected="True" />
+                <SelectField field="Inspection Month" selected="True" />
+                <SelectField field="Inspection Year" selected="True" />
+                <SelectField field="Lat Long Location" selected="True" />
+                <SelectField field="Inspection Date New" selected="False" />
+                <SelectField field="Location1" selected="True" rename="Location" />
+                <SelectField field="Location2" selected="False" />
+                <SelectField field="coordinates1" selected="True" rename="Latitude" />
+                <SelectField field="coordinates2" selected="False" />
+                <SelectField field="extra1" selected="True" rename="Longitude" />
+                <SelectField field="DI_CreatedDate" selected="True" />
+                <SelectField field="DI_WorkflowFilename" selected="True" />
+                <SelectField field="extra2" selected="False" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings>
+            <Position x="848" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Location","Latitude","Longitude"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="931" y="126" width="153" height="165" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 27</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="9">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="956" y="175" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">aka:dallas_food|||stg_dallas</File>
+                  <Passwords />
+                  <CachedCosmeticName />
+                  <Disable>False</Disable>
+                  <FormatSpecificOptions>
+                    <TransactionSize>10000</TransactionSize>
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <PostSQL />
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                    <TransactionMessages>False</TransactionMessages>
+                    <OutputOption>Create</OutputOption>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:dallas_food
+Query=stg_dallas</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <Dependencies>
+                  <Implicit />
+                </Dependencies>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Reports" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Interactive" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas_stg</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7b081aa4-1ae7-4a72-b696-1c5d2a7b8cc2" />
+      <Telemetry>
+        <PreviousWorkflowId value="835c493d-e8d2-44ac-85f9-0d7f3518674b" />
+        <OriginWorkflowId value="835c493d-e8d2-44ac-85f9-0d7f3518674b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
