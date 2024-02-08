@@ -1,0 +1,1372 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="52" y="796" width="1114" height="349" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Stage_Crashes</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23"><![CDATA[odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` ]]></File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=BigQuery
+Query=SELECT * FROM `damg7370-3948...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="borough" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="contributing_factor_vehicle_1" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="contributing_factor_vehicle_2" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="contributing_factor_vehicle_3" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="contributing_factor_vehicle_4" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="contributing_factor_vehicle_5" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="cross_street_name" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="timestamp" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="DateTime" />
+                <Field name="latitude" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Double" />
+                <Field name="longitude" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Double" />
+                <Field name="location" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="number_of_cyclist_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_cyclist_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_motorist_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_motorist_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_pedestrians_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_pedestrians_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_persons_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_persons_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="off_street_name" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="on_street_name" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="unique_key" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="vehicle_type_code1" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="vehicle_type_code2" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="vehicle_type_code_3" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="vehicle_type_code_4" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="vehicle_type_code_5" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="V_WString" />
+                <Field name="zip_code" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="558" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeFormat([timestamp],&quot;%u&quot;)" field="Collision_Day_of_the_week" size="1073741823" type="V_WString" />
+                <FormulaField expression="DateTimeFormat([timestamp],&quot;%A&quot;)" field="Collision_Day" size="1073741823" type="V_WString" />
+                <FormulaField expression="UuidCreate()" field="DI_JobID" size="25" type="V_WString" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Collision_Day_of_the_week = DateTimeFormat([timestamp],"%u")
+Collision_Day = Dat...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="738" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"borough","contributing_factor_vehicle_1","contributing_factor_vehicle_2","contributing_factor_vehicle_3","contributing_factor_vehicle_4","contributing_factor_vehicle_5","cross_street_name","timestamp","latitude","longitude","location","number_of_cyclist_injured","number_of_cyclist_killed","number_of_motorist_injured","number_of_motorist_killed","number_of_pedestrians_injured","number_of_pedestrians_killed","number_of_persons_injured","number_of_persons_killed","off_street_name","on_street_name","unique_key","vehicle_type_code1","vehicle_type_code2","vehicle_type_code_3","vehicle_type_code_4","vehicle_type_code_5","zip_code","collision_hour","Collision_Day_of_the_week","Collision_Day","DI_JobID","DI_CreateDate"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="822" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="borough" selected="True" />
+                <Field field="contributing_factor_vehicle_1" selected="True" />
+                <Field field="contributing_factor_vehicle_2" selected="True" />
+                <Field field="contributing_factor_vehicle_3" selected="True" />
+                <Field field="contributing_factor_vehicle_4" selected="True" />
+                <Field field="contributing_factor_vehicle_5" selected="True" />
+                <Field field="cross_street_name" selected="True" />
+                <Field field="location" selected="True" />
+                <Field field="off_street_name" selected="True" />
+                <Field field="on_street_name" selected="True" />
+                <Field field="vehicle_type_code1" selected="True" />
+                <Field field="vehicle_type_code2" selected="True" />
+                <Field field="vehicle_type_code_3" selected="True" />
+                <Field field="vehicle_type_code_4" selected="True" />
+                <Field field="vehicle_type_code_5" selected="True" />
+                <Field field="collision_hour" selected="True" />
+                <Field field="Collision_Day_of_the_week" selected="True" />
+                <Field field="Collision_Day" selected="True" />
+                <Field field="DI_JobID" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="borough" size="13" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="contributing_factor_vehicle_1" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="contributing_factor_vehicle_2" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="contributing_factor_vehicle_3" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="contributing_factor_vehicle_4" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="contributing_factor_vehicle_5" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="cross_street_name" size="32" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="timestamp" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="DateTime" />
+                <Field name="latitude" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Double" />
+                <Field name="longitude" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Double" />
+                <Field name="location" size="25" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="number_of_cyclist_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_cyclist_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_motorist_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_motorist_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_pedestrians_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_pedestrians_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_persons_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="number_of_persons_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="off_street_name" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="on_street_name" size="32" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="unique_key" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field name="vehicle_type_code1" size="38" source="Formula: [_CurrentField_]" type="V_WString" />
+                <Field name="vehicle_type_code2" size="38" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="vehicle_type_code_3" size="35" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="vehicle_type_code_4" size="35" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="vehicle_type_code_5" size="35" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="zip_code" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision` " type="Int64" />
+                <Field description="RegEx: Parsed from Collision_Hour" name="collision_hour" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="Collision_Day_of_the_week" source="Formula: [_CurrentField_]" type="Byte" />
+                <Field name="Collision_Day" size="9" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="DI_JobID" size="25" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="DI_CreateDate" source="Formula: DateTimeNow()" type="DateTime" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="918" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1014" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_2200_6273bef053cca5499edbee74bbd45aa6_\Engine_2200_1f7c91ce77fa7940a6af8e051aaddd30~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="989" y="941" width="153" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 35</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="31">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1014" y="990" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">aka:collisions|||stg_BQ_crashes</File>
+                  <Passwords />
+                  <FormatSpecificOptions>
+                    <TransactionMessages>False</TransactionMessages>
+                    <Geometry>True</Geometry>
+                    <Projection />
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <SpatialObjSize>8000</SpatialObjSize>
+                    <OutputOption>Create</OutputOption>
+                    <AppendMap>
+                      <AppendMapping mode="Custom">
+                        <Field Source="RecordID" Dest="RecordID" />
+                        <Field Source="Collision_dt" Dest="Collision_Dt" />
+                        <Field Source="Collision_Day" Dest="Collision_Day" />
+                        <Field Source="Collision_time" Dest="Collision_time" />
+                        <Field Source="Collision_hour" Dest="Collision_hour" />
+                        <Field Source="Collision_Day_of_the_week" Dest="Collision_Day_of_the_week" />
+                        <Field Source="BOROUGH" Dest="BOROUGH" />
+                        <Field Source="ZIP CODE" Dest="ZIP CODE" />
+                        <Field Source="LATITUDE" Dest="LATITUDE" />
+                        <Field Source="LONGITUDE" Dest="LONGITUDE" />
+                        <Field Source="LOCATION" Dest="LOCATION" />
+                        <Field Source="ON STREET NAME" Dest="ON STREET NAME" />
+                        <Field Source="CROSS STREET NAME" Dest="CROSS STREET NAME" />
+                        <Field Source="OFF STREET NAME" Dest="OFF STREET NAME" />
+                        <Field Source="NUMBER OF PERSONS INJURED" Dest="NUMBER OF PERSONS INJURED" />
+                        <Field Source="NUMBER OF PERSONS KILLED" Dest="NUMBER OF PERSONS KILLED" />
+                        <Field Source="NUMBER OF PEDESTRIANS INJURED" Dest="NUMBER OF PEDESTRIANS INJURED" />
+                        <Field Source="NUMBER OF PEDESTRIANS KILLED" Dest="NUMBER OF PEDESTRIANS KILLED" />
+                        <Field Source="NUMBER OF CYCLIST INJURED" Dest="NUMBER OF CYCLIST INJURED" />
+                        <Field Source="NUMBER OF CYCLIST KILLED" Dest="NUMBER OF CYCLIST KILLED" />
+                        <Field Source="NUMBER OF MOTORIST INJURED" Dest="NUMBER OF MOTORIST INJURED" />
+                        <Field Source="NUMBER OF MOTORIST KILLED" Dest="NUMBER OF MOTORIST KILLED" />
+                        <Field Source="CONTRIBUTING FACTOR VEHICLE 1" Dest="CONTRIBUTING FACTOR VEHICLE 1" />
+                        <Field Source="CONTRIBUTING FACTOR VEHICLE 2" Dest="CONTRIBUTING FACTOR VEHICLE 2" />
+                        <Field Source="CONTRIBUTING FACTOR VEHICLE 3" Dest="CONTRIBUTING FACTOR VEHICLE 3" />
+                        <Field Source="CONTRIBUTING FACTOR VEHICLE 4" Dest="CONTRIBUTING FACTOR VEHICLE 4" />
+                        <Field Source="CONTRIBUTING FACTOR VEHICLE 5" Dest="CONTRIBUTING FACTOR VEHICLE 5" />
+                        <Field Source="COLLISION_ID" Dest="COLLISION_ID" />
+                        <Field Source="VEHICLE TYPE CODE 1" Dest="VEHICLE TYPE CODE 1" />
+                        <Field Source="VEHICLE TYPE CODE 2" Dest="VEHICLE TYPE CODE 2" />
+                        <Field Source="VEHICLE TYPE CODE 3" Dest="VEHICLE TYPE CODE 3" />
+                        <Field Source="VEHICLE TYPE CODE 4" Dest="VEHICLE TYPE CODE 4" />
+                        <Field Source="VEHICLE TYPE CODE 5" Dest="VEHICLE TYPE CODE 5" />
+                        <Field Source="DI_JobID" Dest="DI_JobID" />
+                        <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                      </AppendMapping>
+                    </AppendMap>
+                    <PostSQL />
+                    <TransactionSize>10000</TransactionSize>
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:collisions
+Query=stg_BQ_crashes</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <Dependencies>
+                  <Implicit />
+                </Dependencies>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="162" y="845" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="borough" selected="True" />
+                <SelectField field="contributing_factor_vehicle_1" selected="True" />
+                <SelectField field="contributing_factor_vehicle_2" selected="True" />
+                <SelectField field="contributing_factor_vehicle_3" selected="True" />
+                <SelectField field="contributing_factor_vehicle_4" selected="True" />
+                <SelectField field="contributing_factor_vehicle_5" selected="True" />
+                <SelectField field="cross_street_name" selected="True" />
+                <SelectField field="timestamp" selected="True" type="String" size="30" />
+                <SelectField field="latitude" selected="True" />
+                <SelectField field="longitude" selected="True" />
+                <SelectField field="location" selected="True" />
+                <SelectField field="number_of_cyclist_injured" selected="True" />
+                <SelectField field="number_of_cyclist_killed" selected="True" />
+                <SelectField field="number_of_motorist_injured" selected="True" />
+                <SelectField field="number_of_motorist_killed" selected="True" />
+                <SelectField field="number_of_pedestrians_injured" selected="True" />
+                <SelectField field="number_of_pedestrians_killed" selected="True" />
+                <SelectField field="number_of_persons_injured" selected="True" />
+                <SelectField field="number_of_persons_killed" selected="True" />
+                <SelectField field="off_street_name" selected="True" />
+                <SelectField field="on_street_name" selected="True" />
+                <SelectField field="unique_key" selected="True" />
+                <SelectField field="vehicle_type_code1" selected="True" />
+                <SelectField field="vehicle_type_code2" selected="True" />
+                <SelectField field="vehicle_type_code_3" selected="True" />
+                <SelectField field="vehicle_type_code_4" selected="True" />
+                <SelectField field="vehicle_type_code_5" selected="True" />
+                <SelectField field="zip_code" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="258" y="845" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>timestamp</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>timestamp</RootName>
+              <Delimeters value=" " />
+              <NumFields value="2" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="342" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="borough" selected="True" />
+                <SelectField field="contributing_factor_vehicle_1" selected="True" />
+                <SelectField field="contributing_factor_vehicle_2" selected="True" />
+                <SelectField field="contributing_factor_vehicle_3" selected="True" />
+                <SelectField field="contributing_factor_vehicle_4" selected="True" />
+                <SelectField field="contributing_factor_vehicle_5" selected="True" />
+                <SelectField field="cross_street_name" selected="True" />
+                <SelectField field="timestamp" selected="True" type="DateTime" size="19" />
+                <SelectField field="latitude" selected="True" />
+                <SelectField field="longitude" selected="True" />
+                <SelectField field="location" selected="True" />
+                <SelectField field="number_of_cyclist_injured" selected="True" />
+                <SelectField field="number_of_cyclist_killed" selected="True" />
+                <SelectField field="number_of_motorist_injured" selected="True" />
+                <SelectField field="number_of_motorist_killed" selected="True" />
+                <SelectField field="number_of_pedestrians_injured" selected="True" />
+                <SelectField field="number_of_pedestrians_killed" selected="True" />
+                <SelectField field="number_of_persons_injured" selected="True" />
+                <SelectField field="number_of_persons_killed" selected="True" />
+                <SelectField field="off_street_name" selected="True" />
+                <SelectField field="on_street_name" selected="True" />
+                <SelectField field="unique_key" selected="True" />
+                <SelectField field="vehicle_type_code1" selected="True" />
+                <SelectField field="vehicle_type_code2" selected="True" />
+                <SelectField field="vehicle_type_code_3" selected="True" />
+                <SelectField field="vehicle_type_code_4" selected="True" />
+                <SelectField field="vehicle_type_code_5" selected="True" />
+                <SelectField field="zip_code" selected="True" />
+                <SelectField field="timestamp2" selected="True" rename="Collision_Hour" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="438" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Collision_Hour</Field>
+              <RegExExpression value="^(\d{2})" />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Collision_Hour</RootName>
+                <NumFields value="1" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="String" size="30" />
+              </ParseComplex>
+              <Match>
+                <Field>borough_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="654" y="858" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Collision_Hour" selected="False" />
+                <SelectField field="Collision_Hour1" selected="True" rename="collision_hour" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="439" width="851" height="325" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Stage_Vehicles</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>vehicles.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings>
+            <Position x="272" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">""</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="368" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="STATE_REGISTRATION" selected="True" />
+                <Field field="VEHICLE_TYPE" selected="True" />
+                <Field field="VEHICLE_MAKE" selected="True" />
+                <Field field="VEHICLE_MODEL" selected="True" />
+                <Field field="VEHICLE_YEAR" selected="True" />
+                <Field field="TRAVEL_DIRECTION" selected="True" />
+                <Field field="VEHICLE_OCCUPANTS" selected="True" />
+                <Field field="DRIVER_SEX" selected="True" />
+                <Field field="DRIVER_LICENSE_STATUS" selected="True" />
+                <Field field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <Field field="PRE_CRASH" selected="True" />
+                <Field field="POINT_OF_IMPACT" selected="True" />
+                <Field field="VEHICLE_DAMAGE" selected="True" />
+                <Field field="VEHICLE_DAMAGE_1" selected="True" />
+                <Field field="VEHICLE_DAMAGE_2" selected="True" />
+                <Field field="VEHICLE_DAMAGE_3" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE" selected="True" />
+                <Field field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="Formula: [_CurrentField_]" type="Int32" />
+                <Field name="COLLISION_ID" source="Formula: [_CurrentField_]" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="CRASH_TIME" size="5" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="VEHICLE_ID" size="36" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="STATE_REGISTRATION" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="VEHICLE_TYPE" size="38" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_MAKE" size="47" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_MODEL" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_YEAR" source="Formula: [_CurrentField_]" type="Int16" />
+                <Field name="TRAVEL_DIRECTION" size="9" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_OCCUPANTS" source="Formula: [_CurrentField_]" type="Int32" />
+                <Field name="DRIVER_SEX" size="1" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="DRIVER_LICENSE_STATUS" size="10" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="8" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PRE_CRASH" size="26" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="POINT_OF_IMPACT" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_DAMAGE" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_1" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_2" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="VEHICLE_DAMAGE_3" size="25" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="11" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="464" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" />
+                <SelectField field="COLLISION_ID" selected="True" />
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="CRASH_TIME" selected="True" />
+                <SelectField field="VEHICLE_ID" selected="True" />
+                <SelectField field="STATE_REGISTRATION" selected="True" />
+                <SelectField field="VEHICLE_TYPE" selected="True" />
+                <SelectField field="VEHICLE_MAKE" selected="True" />
+                <SelectField field="VEHICLE_MODEL" selected="True" />
+                <SelectField field="VEHICLE_YEAR" selected="True" />
+                <SelectField field="TRAVEL_DIRECTION" selected="True" />
+                <SelectField field="VEHICLE_OCCUPANTS" selected="True" />
+                <SelectField field="DRIVER_SEX" selected="True" />
+                <SelectField field="DRIVER_LICENSE_STATUS" selected="True" />
+                <SelectField field="DRIVER_LICENSE_JURISDICTION" selected="True" />
+                <SelectField field="PRE_CRASH" selected="True" />
+                <SelectField field="POINT_OF_IMPACT" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_1" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_2" selected="True" />
+                <SelectField field="VEHICLE_DAMAGE_3" selected="True" />
+                <SelectField field="PUBLIC_PROPERTY_DAMAGE" selected="True" size="1000" />
+                <SelectField field="PUBLIC_PROPERTY_DAMAGE_TYPE" selected="True" size="1000" />
+                <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="656" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="560" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="UuidCreate()" field="DI_JobID" size="25" type="V_WString" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_JobID = UuidCreate()
+DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="752" y="488" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_2200_6273bef053cca5499edbee74bbd45aa6_\Engine_2200_4b7e3248a8e7104ab068edcf7400c0bc~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="727" y="559" width="153" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 34</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="18">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="752" y="608" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">aka:collisions|||stg_vehicles</File>
+                  <Passwords />
+                  <CachedCosmeticName />
+                  <FormatSpecificOptions>
+                    <TransactionMessages>False</TransactionMessages>
+                    <Geometry>True</Geometry>
+                    <Projection />
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <SpatialObjSize>8000</SpatialObjSize>
+                    <OutputOption>Create</OutputOption>
+                    <PostSQL />
+                    <TransactionSize>10000</TransactionSize>
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:collisions
+Query=stg_vehicles</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="78" y="54" width="778" height="338" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Stage_Persons</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings>
+            <Position x="224" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">""</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="332" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="UNIQUE_ID" selected="True" />
+                <Field field="COLLISION_ID" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="CRASH_TIME" selected="True" />
+                <Field field="PERSON_ID" selected="True" />
+                <Field field="PERSON_TYPE" selected="True" />
+                <Field field="PERSON_INJURY" selected="True" />
+                <Field field="VEHICLE_ID" selected="True" />
+                <Field field="PERSON_AGE" selected="True" />
+                <Field field="EJECTION" selected="True" />
+                <Field field="EMOTIONAL_STATUS" selected="True" />
+                <Field field="BODILY_INJURY" selected="True" />
+                <Field field="POSITION_IN_VEHICLE" selected="True" />
+                <Field field="SAFETY_EQUIPMENT" selected="True" />
+                <Field field="PED_LOCATION" selected="True" />
+                <Field field="PED_ACTION" selected="True" />
+                <Field field="COMPLAINT" selected="True" />
+                <Field field="PED_ROLE" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <Field field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <Field field="PERSON_SEX" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" source="Formula: [_CurrentField_]" type="Int32" />
+                <Field name="COLLISION_ID" source="Formula: [_CurrentField_]" type="Int32" />
+                <Field name="CRASH_DATE" size="10" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="CRASH_TIME" size="5" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="PERSON_ID" size="36" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PERSON_TYPE" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PERSON_INJURY" size="11" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="VEHICLE_ID" source="Formula: [_CurrentField_]" type="Int32" />
+                <Field name="PERSON_AGE" source="Formula: [_CurrentField_]" type="Int16" />
+                <Field name="EJECTION" size="17" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="EMOTIONAL_STATUS" size="14" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="BODILY_INJURY" size="20" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="POSITION_IN_VEHICLE" size="86" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="SAFETY_EQUIPMENT" size="40" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PED_LOCATION" size="57" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PED_ACTION" size="47" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="COMPLAINT" size="34" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PED_ROLE" size="15" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="PERSON_SEX" size="1" source="Formula: [_CurrentField_]" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="428" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="UNIQUE_ID" selected="True" />
+                <SelectField field="COLLISION_ID" selected="True" />
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="CRASH_TIME" selected="True" />
+                <SelectField field="PERSON_ID" selected="True" />
+                <SelectField field="PERSON_TYPE" selected="True" />
+                <SelectField field="PERSON_INJURY" selected="True" />
+                <SelectField field="VEHICLE_ID" selected="True" />
+                <SelectField field="PERSON_AGE" selected="True" />
+                <SelectField field="EJECTION" selected="True" />
+                <SelectField field="EMOTIONAL_STATUS" selected="True" />
+                <SelectField field="BODILY_INJURY" selected="True" />
+                <SelectField field="POSITION_IN_VEHICLE" selected="True" />
+                <SelectField field="SAFETY_EQUIPMENT" selected="True" />
+                <SelectField field="PED_LOCATION" selected="True" />
+                <SelectField field="PED_ACTION" selected="True" />
+                <SelectField field="COMPLAINT" selected="True" />
+                <SelectField field="PED_ROLE" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_1" selected="True" />
+                <SelectField field="CONTRIBUTING_FACTOR_2" selected="True" />
+                <SelectField field="PERSON_SEX" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="716" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_2200_6273bef053cca5499edbee74bbd45aa6_\Engine_2200_5176f33321b33f4c8fb92f2bb0276aac~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="524" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="UuidCreate()" field="DI_JobID" size="25" type="V_WString" />
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[DI_JobID = UuidCreate()
+DI_CreateDate = DateTimeNow()
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="620" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>RecordID</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="103" y="116" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>person.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="679" y="187" width="152" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Container 33</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="17">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="704" y="236" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="23">aka:collisions|||stg_persons</File>
+                  <Passwords />
+                  <CachedCosmeticName />
+                  <FormatSpecificOptions>
+                    <TransactionMessages>False</TransactionMessages>
+                    <Geometry>True</Geometry>
+                    <Projection />
+                    <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                    <SpatialObjSize>8000</SpatialObjSize>
+                    <OutputOption>Create</OutputOption>
+                    <AppendMap>
+                      <AppendMapping mode="Custom">
+                        <Field Source="RecordID" Dest="RecordID" />
+                        <Field Source="UNIQUE_ID" Dest="UNIQUE_ID" />
+                        <Field Source="COLLISION_ID" Dest="COLLISION_ID" />
+                        <Field Source="CRASH_DATE" Dest="CRASH_DATE" />
+                        <Field Source="CRASH_TIME" Dest="CRASH_TIME" />
+                        <Field Source="PERSON_ID" Dest="PERSON_ID" />
+                        <Field Source="PERSON_TYPE" Dest="PERSON_TYPE" />
+                        <Field Source="PERSON_INJURY" Dest="PERSON_INJURY" />
+                        <Field Source="VEHICLE_ID" Dest="VEHICLE_ID" />
+                        <Field Source="PERSON_AGE" Dest="PERSON_AGE" />
+                        <Field Source="EJECTION" Dest="EJECTION" />
+                        <Field Source="EMOTIONAL_STATUS" Dest="EMOTIONAL_STATUS" />
+                        <Field Source="BODILY_INJURY" Dest="BODILY_INJURY" />
+                        <Field Source="POSITION_IN_VEHICLE" Dest="POSITION_IN_VEHICLE" />
+                        <Field Source="SAFETY_EQUIPMENT" Dest="SAFETY_EQUIPMENT" />
+                        <Field Source="PED_LOCATION" Dest="PED_LOCATION" />
+                        <Field Source="PED_ACTION" Dest="PED_ACTION" />
+                        <Field Source="COMPLAINT" Dest="COMPLAINT" />
+                        <Field Source="PED_ROLE" Dest="PED_ROLE" />
+                        <Field Source="CONTRIBUTING_FACTOR_1" Dest="CONTRIBUTING_FACTOR_1" />
+                        <Field Source="CONTRIBUTING_FACTOR_2" Dest="CONTRIBUTING_FACTOR_2" />
+                        <Field Source="PERSON_SEX" Dest="PERSON_SEX" />
+                      </AppendMapping>
+                    </AppendMap>
+                    <PostSQL />
+                    <TransactionSize>10000</TransactionSize>
+                    <TableStyle>Quoted</TableStyle>
+                    <PreSQL />
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:collisions
+Query=stg_persons</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output26" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="26" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output26" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output26" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="2" Connection="Input2" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>stg_collisions</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1362adb1-f54d-46b3-b87b-4a8d9138878f" />
+      <Telemetry>
+        <PreviousWorkflowId value="fab93e54-8227-4a57-a6ea-63bc6910b4db" />
+        <OriginWorkflowId value="fab93e54-8227-4a57-a6ea-63bc6910b4db" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

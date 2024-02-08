@@ -1,0 +1,1024 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="221" y="785" width="481" height="277" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>BigQuery_Table</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="246" y="882" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DSN=BigQuery
+Query=SELECT * FROM `damg7370-3948...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="borough" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="contributing_factor_vehicle_1" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="contributing_factor_vehicle_2" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="contributing_factor_vehicle_3" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="contributing_factor_vehicle_4" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="contributing_factor_vehicle_5" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="cross_street_name" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="timestamp" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="DateTime" />
+                <Field name="latitude" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Double" />
+                <Field name="longitude" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Double" />
+                <Field name="location" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="number_of_cyclist_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_cyclist_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_motorist_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_motorist_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_pedestrians_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_pedestrians_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_persons_injured" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="number_of_persons_killed" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="off_street_name" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="on_street_name" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="unique_key" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+                <Field name="vehicle_type_code1" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="vehicle_type_code2" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="vehicle_type_code_3" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="vehicle_type_code_4" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="vehicle_type_code_5" size="16384" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="V_WString" />
+                <Field name="zip_code" source="File: odbc:DSN=BigQuery|||SELECT * FROM `damg7370-394800.damg7370_nypd.nypd_mv_collision`" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="342" y="846" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings>
+            <Position x="354" y="906" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields" />
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="510" y="978" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_6068_8d07d58405e64d3f8b60916149a85a8a_\Engine_6584_5f2b845c282d4cadadaf92c3ac6e666e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="894" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_6068_8d07d58405e64d3f8b60916149a85a8a_\Engine_6584_1a50efe27fd143d8bbf848ffbad94600_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="534" y="870" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_6068_8d07d58405e64d3f8b60916149a85a8a_\Engine_6584_a84565af55d9408e9805787ecc13ccc7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="438" y="834" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_6068_8d07d58405e64d3f8b60916149a85a8a_\Engine_6584_a29769cec5e4477b8bc947241071cfe4_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="55" y="54" width="469" height="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Crashes</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="80" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>crashes.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CRASH TIME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="BOROUGH" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="ZIP CODE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="ON STREET NAME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CROSS STREET NAME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="OFF STREET NAME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PERSONS INJURED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PERSONS KILLED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PEDESTRIANS INJURED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF PEDESTRIANS KILLED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF CYCLIST INJURED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF CYCLIST KILLED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF MOTORIST INJURED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="NUMBER OF MOTORIST KILLED" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 3" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 4" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING FACTOR VEHICLE 5" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 3" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 4" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+                <Field name="VEHICLE TYPE CODE 5" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\crashes.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="212" y="115" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings>
+            <Position x="236" y="187" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields" />
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="320" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_43552a3a087b433a857a1d40e2b15fbf_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="344" y="168" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_56a7b52c52b8402da142d8092ca5edf7_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="440" y="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_3b12ac37e69a4cc8a68139ea0876cbe5_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="368" y="240" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_ce6a6562ab0841ed8919551fcf1a85ba_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Report</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="431" width="506" height="277" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Vehicles</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="516" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>vehicles.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="STATE_REGISTRATION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MAKE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_MODEL" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_YEAR" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="TRAVEL_DIRECTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_OCCUPANTS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_SEX" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_STATUS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="DRIVER_LICENSE_JURISDICTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="PRE_CRASH" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="POINT_OF_IMPACT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="VEHICLE_DAMAGE_3" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="PUBLIC_PROPERTY_DAMAGE_TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\vehicles.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="200" y="492" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings>
+            <Position x="212" y="552" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields" />
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="368" y="624" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_6708c965a3924a8681212b79af72e835_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="476" y="540" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_ac9a0a52c5074b2d8b63e9a2600e31ef_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="392" y="516" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_395796b470094024a8bcca54cb85114b_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="296" y="480" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_714d236f0f024613876cdf448493f599_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="643" y="215" width="433" height="289" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Person</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="668" y="288" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>\t</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>person.tsv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="UNIQUE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="COLLISION_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CRASH_TIME" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_TYPE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_INJURY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="VEHICLE_ID" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_AGE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="EJECTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="EMOTIONAL_STATUS" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="BODILY_INJURY" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="POSITION_IN_VEHICLE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="SAFETY_EQUIPMENT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PED_LOCATION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PED_ACTION" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="COMPLAINT" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PED_ROLE" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_1" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="CONTRIBUTING_FACTOR_2" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+                <Field name="PERSON_SEX" size="254" source="File: C:\Users\Yamini Manral\OneDrive\Desktop\Summer Semester\DAMG7370 DADABI\Assignments - DADABI\A7 NYC Collision\person.tsv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+            <Position x="800" y="264" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Limit_UniqueCount>10000</Limit_UniqueCount>
+              <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+              <IsMetric value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings>
+            <Position x="776" y="324" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Select Fields" />
+              <Value name="Sample Data">False</Value>
+              <Value name="Number">True</Value>
+              <Value name="NNumber">5000</Value>
+              <Value name="Percent">False</Value>
+              <Value name="NPercent">10</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="884" y="264" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_20e9c269eb8d442eabb68a78b0cb7fac_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="956" y="420" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_bf8bc4bf6e2e478db48f88c41b7f56f4_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="932" y="336" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_a04d2a4896b54e6f876a956a3b2cf1b7_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="992" y="300" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\YAMINI~1\AppData\Local\Temp\Engine_10392_d5173e3546bb4124983b9a92a1dddf4e_\Engine_33684_47ec2dbaaa144ba9acfc4ddd5b262766_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Interactive" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Reports" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Interactive" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Interactive" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Reports" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Interactive" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Reports" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Data profiling MVCollision</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="8a4194f0-a17d-48ed-8f3b-d6affd91ea9a" />
+      <Telemetry>
+        <PreviousWorkflowId value="3019db5e-49f3-4bd3-b0ce-6a3bef8f7dbe" />
+        <OriginWorkflowId value="3019db5e-49f3-4bd3-b0ce-6a3bef8f7dbe" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
